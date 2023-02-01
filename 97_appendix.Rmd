@@ -1,0 +1,476 @@
+`r if(knitr:::is_latex_output()) '\\appendix'`
+
+`r if(!knitr:::is_latex_output()) '# (APPENDIX) Appendix {-}'` 
+
+<!--
+If you feel it necessary to include an appendix, it goes here.
+-->
+
+
+# ICD-11 Condition Codes
+
+## Severe Mental Illness Codes
+
+Severe mental illness ICD-11 codes are below.
+
+```{r, echo=FALSE}
+library(tidyverse)
+library(kableExtra)
+
+table1 <- tibble(
+  code = c(
+    "6A20",
+    "6A21",
+    "6A22",
+    "6A23",
+    "6A24",
+    "6A25",
+    "6E61",
+    "6A2Y",
+    "6A2Z",
+    "6D10",
+    "6D11",
+    "6E68",
+    "6B40",
+    "6B41",
+    "6B80",
+    "6B81",
+    "6B82"
+  ),
+  diagx = c(
+    "Schizophrenia",
+    "Schizoaffective disorder",
+    "Schizotypal disorder",
+    "Acute and transient psychotic disorder",
+    "Delusional disorder",
+    "Symptomatic manifestations of primary psychotic disorders",
+    "Secondary psychotic syndrome",
+    "Other specified primary psychotic disorder",
+    "Schizophrenia or other primary psychotic disorders, unspecified",
+    "Personality disorder",
+    "Prominent personality traits or patterns",
+    "Secondary personality change",
+    "Post traumatic stress disorder",
+    "Complex post traumatic stress disorder",
+    "Anorexia Nervosa",
+    "Bulimia Nervosa",
+    "Binge Eating Disorder"
+  )
+) %>%
+  arrange(diagx) # order alphabetically
+table1 <- unique(table1) # remove duplicates
+
+# \newpage
+
+## Step 2 - make a \LaTeX table using `kable` {-}
+
+knitr::kable(table1,
+  longtable = T, booktabs = T, format = "latex", escape = F,
+  row.names = F,
+  col.names = c("Code", "Condition")
+) %>%
+  kable_styling(
+    latex_options = c("HOLD_position", "repeat_header"),
+    position = "center"
+  )
+```
+
+## Commom Mental Health Disorder Codes
+
+Common mental heath disoders by ICD-11 code are below.
+
+```{r, echo=FALSE}
+library(tidyverse)
+library(kableExtra)
+
+table2 <- tibble(
+  code = c(
+    "6A70",
+    "6A71",
+    "6A72",
+    "6A7Y",
+    "6B00",
+    "6B01",
+    "6B03",
+    "6B04",
+    "6B05",
+    "6B0Y",
+    "6B20",
+    "6B21",
+    "6B23",
+    "6B24",
+    "6B25",
+    "6B25.0",
+    "6B25.1",
+    "6B2Y"
+  ),
+  diagx = c(
+    "Single Episode Depressive Disorder",
+    "Recurrent Depressive Disorder",
+    "Dysthymic Disorder",
+    "Other Specified Depressive Disorders",
+    "Generalized Anxiety Disorder",
+    "Panic Disorder",
+    "Specific Phobia",
+    "Social Anxiety Disorder",
+    "Separation Anxiety Disorder",
+    "Other Specified Anxiety or Fear-Related Disorders",
+    "Obsessive-Compulsive Disorder",
+    "Body Dysmorphic Disorder",
+    "Hypochondriasis (Health Anxiety Disorder)",
+    "Hoarding Disorder",
+    "Body-Focused Repetitive Behaviour Disorders",
+    "Trichotillomania (Hair Pulling Disorder)",
+    "Excoriation (Skin Picking) Disorder",
+    "Other Specified Obsessive-Compulsive or Related Disorders"
+  )
+) %>%
+  arrange(diagx) # order alphabetically
+table2 <- unique(table2) # remove duplicates
+
+# \newpage
+
+## Step 2 - make a \LaTeX table using `kable` {-}
+
+knitr::kable(table2,
+  longtable = T, booktabs = T, format = "latex", escape = F,
+  row.names = F,
+  col.names = c("Code", "Condition")
+) %>%
+  kable_styling(
+    latex_options = c("HOLD_position", "repeat_header"),
+    position = "center"
+  )
+```
+
+
+# Code and Analysis
+
+## Accessing the Analysis Code
+
+All analysis code can be accessed via the dedicated GitHub repository:
+
+> [github.com/themichjam/apms_analysis_phd](https://github.com/themichjam/apms_analysis_phd)
+
+## Packages Used
+
+Packages used can be seen here. 
+
+```{r pckgs used, echo = T, results = 'hide', warning = F, message = F}
+
+# if needed
+if (!require(pacman)) {
+  install.packages("pacman")
+  library(pacman)
+}
+p_load(
+  apyramid, # population pyramids aggregated by age
+  collapse, # C/C++ based package for advanced data transformation and
+  # statistical computing
+  DataExplorer, # automated data exploration process for analytic
+  # tasks and predictive modeling
+  dataReporter, # generates a custom data report with a
+  # thorough summary of the checks
+  ggpubr, # creating publication ready plots
+  ggstats, # suite of functions to plot regression model coefficients
+  gt, # presentation ready tables
+  gtExtras, # extend gt
+  gtsummary, # publication-ready analytical and summary tables
+  haven, # read and write various data formats used by
+  # other statistical packages
+  here, # constructs paths to project's files
+  janitor, # examines and cleans dirty data
+  jtools, # a collection of tools for more efficiently
+  # understanding and sharing the results of
+  # (primarily) regression analyses.
+  knitr, # facilitate complex data transformation
+  marginaleffects, # Compute and plot adjusted predictions,
+  # contrasts, marginal effects, and marginal means
+  margins, # R port of Stata's 'margins' command
+  MetBrewer, # colour palettes of the met gallery
+  modelsummary, # publication ready model summaries
+  naniar, # allows missing data dependencies to be explored with
+  # minimal deviation
+  pacman, # conveniently wraps library and package related functions
+  patchwork, # plot composer
+  performance, # Utilities for computing measures to assess
+  # model quality
+  psych, # general purpose toolbox for personality, psychometric theory
+  questionr, # make the processing and analysis of surveys easier
+  readxl, # read in excel files
+  report, # produces reports of models and data frames according to
+  # best practices
+  reprex, # sharing of small, reproducible, and runnable examples
+  skimr, # simple to use summary function that can be used with pipes
+  srvyr, # 'dplyr' tidy-like syntax for summary statistics
+  # of survey data
+  # formatting intent
+  summarytools, # data frame summaries etc.
+  survey, # analysing data from complex surveys
+  surveyCV, # K-fold cross validation on complex surveys
+  tidymodels, # tidy modelling "verse" of packages for
+  # modelling and statistical analysis
+  tidyverse, # opinionated collection of R packages designed
+  # for data science
+  vip, # variable importance plots from models
+)
+```
+
+## Regression Code
+
+Code for the regression model sets can be seen here.
+
+```{r models, eval=FALSE}
+
+# Model for economic activity in the 2000 survey wave
+mod_econ_act_00 <- svyglm(
+  econ_act ~ # DV measuring economic activity
+    gender + # IV gender
+    age_col + # IV collapsed age group
+    ethnic_col + # IV collapsed ethnicity
+    sc_col + # IV collapsed social class
+    edqual_col + # IV collapsed education
+    phys_health + # IV derived presence of physical condition
+    cmd_pres + # IV derived presence of CMD
+    smi_comp, # IV derived presence of SMI comparable
+  # to 2007 survey wave
+  design = weighted_00, # takes into account weighted
+  # complex survey object
+  family = binomial # logistic regression
+)
+# Model for economic activity in the 2007 survey wave
+mod_econ_act_07 <- svyglm(
+  econ_act ~
+    gender +
+    age_col +
+    ethnic_col +
+    sc_col +
+    edqual_col +
+    phys_health +
+    cmd_pres +
+    smi_comp,
+  design = weighted_07,
+  family = binomial
+)
+
+# Model for employment status of those indicated as economically
+# active only in the 2000 survey wave
+mod_emp_stat_00 <- svyglm(
+  emp_act_status ~ # DV measuring employment status
+    gender + # IV gender
+    age_col + # IV collapsed age groups
+    ethnic_col + # IV collapsed ethnicity
+    sc_col + # IV collapsed social class
+    edqual_col + # IV collapsed education
+    phys_health + # IV derived presence of a physical condition
+    cmd_pres + # IV derived presence of CMD
+    smi_comp, # IV derived presence of SMI comparable
+  # to 2007 survey wave
+  design = weighted_00, # takes into account weighted
+  # complex survey object
+  family = binomial # logistic regression
+)
+# Model for employment status of those indicated as economically
+# active only in the 2007 survey wave
+mod_emp_stat_07 <- svyglm(
+  emp_act_status ~
+    gender +
+    age_col +
+    ethnic_col +
+    sc_col +
+    edqual_col +
+    phys_health +
+    cmd_pres +
+    smi_comp,
+  design = weighted_07,
+  family = binomial
+)
+
+# Model for economic activity in the 2000 survey wave focusing on
+# the presence of CMD
+mod_cmd_00 <- svyglm(
+  econ_act ~ # DV measuring economic activity
+    cmd_pres + # IV derived presence of CMD
+    gender + # IV gender
+    age_col + # IV collapsed age group
+    ethnic_col + # IV collapsed ethnicity
+    sc_col + # IV collapsed social class
+    edqual_col + # IV collapsed education
+    phys_health + # IV derived presence of physical condition
+    trtment + # IV derived indication of having treatment
+    anyhlca, # IV derived indication of using mental health services
+  design = weighted_00, # takes into account weighted
+  # complex survey object
+  family = binomial # logistic regression
+)
+# Model for economic activity in the 2007 survey wave focusing on the
+# presence of CMD
+mod_cmd_07 <- svyglm(
+  econ_act ~
+    cmd_pres +
+    gender +
+    age_col +
+    ethnic_col +
+    sc_col +
+    edqual_col +
+    phys_health +
+    trtment +
+    anyhlca,
+  design = weighted_07,
+  family = binomial
+)
+
+# Model for economic activity in the 2000 survey wave
+# focusing on type of CMD
+mod_cmdt_00 <- svyglm(
+  econ_act ~ # DV measuring economic activity
+    cmd_type + # IV derived indication of type of CMD
+    gender + # IV gender
+    age_col + # IV collapsed age group
+    ethnic_col + # IV collapsed ethnicity
+    sc_col + # IV collapsed social class
+    edqual_col + # IV collapsed education
+    phys_health, # IV derived presence of physical condition
+  design = weighted_00, # takes into account weighted
+  # complex survey object
+  family = binomial # logistic regression
+)
+# Model for economic activity in the 2007 survey wave
+# focusing on type of CMD
+mod_cmdt_07 <- svyglm(
+  econ_act ~
+    cmd_type +
+    gender +
+    age_col +
+    ethnic_col +
+    sc_col +
+    edqual_col +
+    phys_health,
+  design = weighted_07,
+  family = binomial
+)
+
+# Model for economic activity in the 2000 survey wave
+# focusing on the presence of SMI
+mod_smi_00 <- svyglm(
+  econ_act ~ # DV measuring economic activity
+    smi_comp + # IV derived presence of SMI comparable
+    # to 2007 survey wave
+    gender + # IV gender
+    age_col + # IV collapsed age group
+    ethnic_col + # IV collapsed ethnicity
+    sc_col + # IV collapsed social class
+    edqual_col + # IV collapsed education
+    phys_health + # IV derived presence of physical condition
+    trtment + # IV derived indication of having treatment
+    anyhlca, # IV derived indication of using mental health services
+  design = weighted_00, # takes into account weighted
+  # complex survey object
+  family = binomial # logistic regression
+)
+# Model for economic activity in the 2007 survey wave
+# focusing on the presence of SMI
+mod_smi_07 <- svyglm(
+  econ_act ~
+    smi_comp +
+    gender +
+    age_col +
+    ethnic_col +
+    sc_col +
+    edqual_col +
+    phys_health +
+    trtment +
+    anyhlca,
+  design = weighted_07,
+  family = binomial
+)
+
+# Model for economic activity in the 2000 survey wave
+# focusing on type of SMI
+mod_smit_00 <- svyglm(
+  econ_act ~ # DV measuring economic activity
+    smi_type + # IV derived indication of type of SMI
+    gender + # IV gender
+    age_col + # IV collapsed age group
+    ethnic_col + # IV collapsed ethnicity
+    sc_col + # IV collapsed social class
+    edqual_col + # IV collapsed education
+    phys_health, # IV derived presence of physical condition
+  design = weighted_00, # takes into account weighted
+  # complex survey object
+  family = binomial # logistic regression
+)
+# Model for economic activity in the 2007 survey wave
+# focusing on type of SMI
+mod_smit_07 <- svyglm(
+  econ_act ~
+    smi_type +
+    gender +
+    age_col +
+    ethnic_col +
+    sc_col +
+    edqual_col +
+    phys_health,
+  design = weighted_07,
+  family = binomial
+)
+```
+
+
+# Reflexivity Promps
+
+More information, including workshop and creative reflexive writing materials can be found on the maintained OSF repository:
+
+> [https://osf.io/h2f4t/](https://osf.io/h2f4t/)
+
+Prompt questions for embedding reflexivity in all stages of the research process are provided here. Note that these prompts may be engaged with on an individual level (i.e., by individual researchers) but can also be beneficial to work through as a research team and sharing as much or as little as any member of the team would feel comfortable with, given the diversity of experiences that members of a collaboration will bring. Making space for honest, structured conversations around positionality within a research team may lead to useful insights. Some of the questions here will have relatively clear-cut answers, whereas others will be more complex and nuanced. For example, the question of identifying as occupying an insider/outsider position is not a clear binary and researchers may align themselves along a spectrum of *“insider/outsider-ness"*.
+
+## Beginner Prompts
+
+These can be split into several research stages. 
+
+### Research Question and Design Stage
+
+Questions:
+
+1. Why do I want to research this group?
+2. To what extent am I “within” the participant group that I am researching? Am I an *“insider” or “outsider”* researcher (or do I occupy both positions?)
+3. What can I give to this group? Who is represented within the research team?
+4. Should I be the one to research this group, or am I taking space away from someone else?
+
+### Data Collection Stage
+
+Questions:
+
+5. Am I intruding on this group? How can I make this as non-coercive as possible?
+6. How can I make this research accessible to the population?
+7. Do participants understand what their data will be used for?
+8. Have I thought beyond traditional ethics? Am I acting ethically?
+9. Could my collection methods be problematic?
+
+### Data Analysis and Interpretation Stage
+
+Questions:
+
+10. Am I aware that people have given me this data and that they may not know me (e.g., survey, health, or admin data)?
+11. Who are these people behind the data?
+12. If I am using existing datasets, are there any silent assumptions in this dataset?
+13. Could my analysis of the dataset reproduce existing inequalities?
+
+### Conclusions and Framing Stage
+
+Questions:
+
+14. How does my use of evidence reflect my biases (or the biases of the research team) as researchers and as individuals with their own life, wants, emotions, needs?
+15. What do I gain from this research? What does the population I have studied gain?
+16. Is there a disconnect between the two questions above? If so, consider the first few questions in this table again.
+
+An indepth discussion can be read at [@RN2410].
+
+
+# Supplementary Materials 
+
+Supplementary plots and tables can be accessed via the dedicated GitHub repository:
+
+> [github.com/themichjam/apms_analysis_phd](https://github.com/themichjam/apms_analysis_phd)
+

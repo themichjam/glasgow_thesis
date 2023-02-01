@@ -1,0 +1,137 @@
+---
+output:
+    thesisdown::thesis_pdf: default
+bibliography: bib/thesis.bib
+csl: csl/harvard.csl
+space_betwee_paragraphs: true
+fig_caption: true
+always_allow_html: yes
+link-citations: true
+toc-depth: 3
+lot: true
+lof: true
+editor_options: 
+  chunk_output_type: console
+---
+
+# Introduction {#chapter1}
+
+## Chapter Overview
+
+This thesis provides an exploration of the relationships between severe mental illness (SMI), common mental health disorders (CMD) and employment outcomes for adults in England. The topic of severe mental illness and its relationship to employment has been a growing area of interest in recent years. Individuals living with a severe mental illness, such as those with disorders like psychosis and personality disorders, often face significant barriers in obtaining and maintaining employment. However, employment can provide not only financial benefits, but also social and psychological benefits that can be restorative for individuals living with severe mental illness.
+
+Common mental disorders such as depression and anxiety, are also prevalent among working-age adults and can also impact an individual's ability to participate in the workforce. It is important to note that while severe mental illness and common mental health disorders both fall under the umbrella of mental health conditions, they are distinct and include separate conditions and severity.
+
+This study aims to examine the rates and factors associated with employment among individuals living with severe mental illness and common mental health disorders, as well as the barriers or enablers, such as socio-economic status, ethnicity, education, physical health, involvement in services that are experienced by this population. Through a thorough analysis of data collected from the Adult Psychiatric Morbidity Survey (APMS) waves in 2000 and 2007, this thesis aims to provide a deeper understanding of the experiences and challenges faced by individuals living with severe mental illness and common mental health disorders in the workforce.
+
+This introductory chapter provides a brief overview of severe mental illness and employment within a UK context, and introduces reflexivity, a tool for critical engagement with my own practice, which runs throughout this thesis. The overarching aims and related research questions shaping this thesis are introduced, including the change of direction required due to COVID-19. Finally, this chapter draws to a close with an overview of the structure of this thesis.
+
+## Context
+
+Work, or its absence, is intrinsically linked to our health and wellbeing. Good-quality, stable work can help build a sense of identity, self-esteem, social connections and positive routines. However, for individuals living with severe mental illness the barriers to employment can be significant. The relationship between severe mental illness and employment is a two-way dynamic, where poor health can be a barrier to work, and conversely, the lack of work can erode an individual's health, leading to increased difficulty in finding and maintaining employment. How people work is constantly evolving and shaped by the economy, technology, and the political climate [@RN2247; @RN2246].
+
+It is estimated that just 5–15% of people with conditions like schizophrenia are in employment and they are 6 to 7 times more likely to be unemployed than the general population [@RN4715]. Unemployment or poor-quality employment could limit opportunity and have a negative impact on physical health, social inclusion, health choices, and mental health outcomes [@RN2252]. One of the main barriers that individuals with severe mental illness face in regards to employment is the lack of understanding and support from employers and colleagues. Many employers are not familiar with the symptoms and accommodations that individuals with severe mental illness require and may not have the knowledge or resources to provide the necessary support. This can lead to discrimination and stigmatization in the workplace, which can further exacerbate the individual's mental health symptoms and make it harder for them to maintain employment [@RN343].
+
+Another barrier that individuals with severe mental illness face is the lack of adequate benefits and support systems. The current benefits system is often not equipped to provide the necessary support for individuals with severe mental illness to find and maintain employment. This can lead to a lack of financial stability and security, which can further exacerbate mental health symptoms and make it harder for individuals to find and maintain employment. In addition to these barriers, individuals with severe mental illness may also face a lack of education and training opportunities [@RN2254].
+
+Many individuals with severe mental illness may not have the same level of education and qualifications as their peers, which can make it harder for them to find and maintain employment [@RN3448]. The formative systematic review by Rinaldi and colleagues which explored the motivation and understanding of individuals with first-episode psychosis around work found similar barriers [@RN208]. Recent systematic reviews based on this work also found that those living with severe mental illness faced significant barriers to re-engaging with social and occupational ‘recovery’ and that even with social and occupational support in place, less than 50% of individuals revert back to pre-severe mental illness levels of social and occupational engagement [@RN3444].
+
+Despite these barriers, there are several steps that can be taken to improve the employment outcomes for individuals with severe mental illness. One of the most important steps is to address the systemic barriers that individuals with severe mental illness face in the labour market. This may involve changes in policies, attitudes, and perceptions towards individuals with severe mental illness in the workplace, as well as increased education and training opportunities for those with severe mental illness to acquire the skills and qualifications necessary to enter and succeed in the workforce. Additionally, providing support services such as job coaching, mentoring, and on-the-job accommodations can help individuals with severe mental illness to succeed in their jobs. Furthermore, employers can also benefit from training and education on how to support and accommodate employees with severe mental illness. It is also important to promote collaboration between government, employers and mental health organisations to provide better support and resources for individuals with severe mental illness in the workforce. Overall, by addressing these systemic barriers and providing support and resources, we can improve the employment outcomes for individuals with severe mental illness and promote their overall health and wellbeing.
+
+Another barrier that individuals with severe mental illness face is the lack of access to appropriate mental health treatment and support. Many individuals with severe mental illness may not have access to the necessary mental health services and treatment that can help them manage their symptoms and improve their overall health and well-being. Without access to appropriate treatment, individuals with severe mental illness may find it difficult to manage their symptoms and maintain employment. Additionally, individuals with severe mental illness may also face challenges in obtaining and maintaining stable housing. The lack of stable housing can make it difficult for individuals to maintain employment as they may not have a stable place to live, access to transportation and other resources that are necessary to maintain employment.
+
+Furthermore, individuals with severe mental illness may also face discrimination and stigmatization from society in general, which can make it harder for them to find and maintain employment. This can include negative stereotypes and misconceptions about individuals with severe mental illness, which can lead to discrimination and bias in the workplace and other areas of life.
+
+To improve the employment outcomes for individuals with severe mental illness, it is important to address these barriers and provide support and resources to help individuals with severe mental illness overcome them. This may include providing access to appropriate mental health treatment and support, assistance with stable housing, and education and training opportunities to help individuals with severe mental illness acquire the skills and qualifications necessary to enter and succeed in the workforce. It is also important to promote awareness and understanding of severe mental illness to reduce discrimination and stigmatization, and to work with employers, government, and mental health organisations to provide better support and resources for individuals with severe mental illness in the workforce. By addressing these barriers and providing support and resources, we can help improve the employment outcomes for individuals with severe mental illness and promote their overall health and wellbeing.
+
+## Terminology 
+
+In this thesis the term ‘severe mental illness' is used. This term is used as it is the most prevalent term in literature, policy, and data. The psychiatric labels used throughout this project are the ones present in diagnostic manuals used worldwide, ICD-11 [@RN2238], and the DSM-V (Diagnostic and Statistical Manual of Mental Disorders, 5th Edition) [@RN2237]. These choices were made due to these terms also being present in the data analysed, or due to the way the survey questions were asked, and the data quantified. However, it should be noted that although some individuals find these labels helpful for their own understanding of what they are experiencing [@RN3435] there is also a growing literature, both academic, policy, and from those with lived experience, calling into question these terms - what they mean, the negative impact and stigma they can produce, and how they are perceived by others, including the health service, welfare state, and the labour market [@RN2236]. Definitions for these terms can be found in Chapter \@ref(chapter2).
+
+## Reflexivity
+
+This thesis is written from the traditional third person perspective, interspersed with a first-person perspective in the form of three short reflexive pieces. This decision was shaped by personal, political and professional views [@RN4717]. I identify as an intersectional feminist researcher, and although primarily working within quantitative research, I look to challenge the idealised view of quantitative methods being inherently ‘objective’ and ‘gold standard’ for understanding phenomena. Aligning with other feminist researchers, I believe ‘good’ research comes from conscious, active acknowledgement of one's own beliefs, biases, and judgements before, during, and after the research process [@RN4718]. A more in-depth account of the ontological and epistemological approach to this research project is presented in Chapter \@ref(chapter5).
+
+## The Impact of COVID-19 on the Thesis
+
+The impact of COVID-19 on this thesis has been significant, as it has forced a re-evaluation of the project's aims, research questions and sources of data. The original plans for this PhD project relied on the novel linkage of sensitive health and admin data, which would then be accessed through a safe haven. However, with the outbreak of COVID-19, access to the original data was lost, with the permissions process prioritising COVID-19 related projects for access, or coming to a halt for other projects and pushing the original data access outside the time limits of this thesis, requiring the need to find new sources of data that could be accessed from home due to COVID-19 measures.
+
+Furthermore, the pandemic has also had an impact on the researcher's personal and professional life, which is reflected in the short autoethnographic pieces presented throughout this thesis, and in Chapters \@ref(chapter3) and \@ref(chapter4). This personal reflection highlights the disruptions and challenges that the researcher faced in light of the pandemic and how it has affected the project's progress.
+
+The subsequent impact on this thesis has resulted in some non-conventional aspects. It is important to note that parts of the literature review and methods sections of this thesis may appear at odds with the actual empirical work conducted, this is due to the fact that they reflect the earlier aims and plans of the project which were disrupted by the pandemic, and this disruption came at such a late stage in the original work. For example, the loss of the original data happened one week before the safe haven appointment to access it. This required a significant adjustment period, and an extension was granted to reflect the disruptions caused by COVID-19. The impact of COVID-19 on this project has been significant, but through re-evaluation and adaptation, new sources of data have been found and the project has been able to continue. 
+
+Autoethnography is an approach to research that combines traditional ethnography with the personal experiences of the researcher. This approach has been included in this traditional quantitative-based PhD for several reasons.
+
+First, the topic of this research is serious mental illness, and the researcher also lives with a severe mental illness. This personal connection to the topic allows for a unique perspective and insight into the experiences of individuals with severe mental illness. Autoethnography allows for the researcher to use their personal experiences and emotions as a way to understand the experiences of others with severe mental illness, and to bring a human element to the research that might not be fully captured by traditional quantitative methods.
+
+Second, severe mental illness is a stigmatised and often misunderstood topic. By including autoethnographic elements, the researcher is able to provide a nuanced and personal account of living with severe mental illness, which can help to challenge stereotypes and misconceptions about this population. The researcher can also use their own experiences to highlight the ways in which societal attitudes and structures may impact individuals with severe mental illness [@RN4719].
+
+Third, autoethnography allows for reflexivity in the research process. This means that the researcher is able to critically examine their own biases and assumptions, and to consider how these may have influenced the research. This is particularly important in research on sensitive topics such as severe mental illness, where the researcher's own experiences may shape their understanding of the topic in ways that are not immediately obvious [@RN4720].
+
+Lastly, as the pandemic has disrupted plans, it also created an unique set of circumstances for the researcher which would be difficult to capture by quantitative data, the autoethnographic elements allows the researcher to reflect on their own experiences during the pandemic and how it has affected their personal and professional development.
+
+Overall, the inclusion of autoethnographic elements in this traditional quantitative-based PhD may be unconventional, but allows for a more comprehensive and nuanced understanding of the topic of severe mental illness, and provides a unique perspective that would not be possible through traditional quantitative methods alone and adds a valuable and unique perspective that complements the traditional quantitative methods.
+
+## Aims
+
+The aim of this research is to gain a better understanding of the patterns of employment outcomes among individuals living with severe mental illness and how these patterns vary depending on individual and social barriers and enablers. These aims shifted from looking at this from a pre- and post- onset of severe mental illness to focusing on post-onset due to losing access to the original data that could have enabled this during the COVID-19 pandemic. 
+
+### 2017 to 2020
+
+These aims were part of the original project that envisioned the use of linked health and admin data:
+
+1.	To provide a detailed description of the patterns of employment in individuals with severe mental illness and how this varies by both individual and local labour market characteristics.
+2.	To examine how employment status changes after the onset of severe mental illness, but also immediately before the onset of severe mental illness, and how this varies with individual and local labour market characteristics.
+3.	To examine whether the relationship between the onset of severe mental illness and employment status differs from that with the onset of Common Mental Disorders.
+
+### 2020 to 2022
+
+The aims were revised after the impact of COVID-19 on the project resulted in loss of access to the original planned data, and after consideration of data that could be accessed under home-working conditions while still addressing the same overall aim:
+
+1.	To provide a detailed description of the patterns of employment in individuals with severe mental illness and how this varies by both individual and local labour market characteristics.
+2.	To examine whether the relationship between the onset of severe mental illness and employment status differs from that with the onset of Common Mental Disorders .
+
+Given that the second aim in the original project needed access to records pre- and post-onset of severe mental illness, this aim was dropped from the revised project, as the data that was taken forward had no reliable pre-onset measure of severe mental illness. This is further discussed in Chapters \@ref(chapter3) and \@ref(chapter4).
+
+## Research Questions
+
+Based on the literature reviewed in Chapter \@ref(chapter2), the following questions were derived. Including the original research questions pre- COVID-19. The final research questions were reduced to five questions, as those concerned with pre-illness onset were no longer relevant given the data change.
+
+### 2017 to 2020
+
+1.	How has the impact of severe mental illness on employment status changed in the last ten years in Scotland?
+2.	How do severe mental illness individuals’ employment status patterns compare to the rest of the population in Scotland in 2011?
+3.	Is the relationship of severe mental illness on employment status different from the relationship of common mental health disorders on employment status in Scotland?
+4.	How does living with severe mental illness affect the entrance of young adults (16-35 years old) to the labour force, in comparison to young adults without severe mental illness?
+5.	How do severe mental illness individuals’ employment status patterns compare in the period just before the onset of severe mental illness, and in the period just after the identification of severe mental illness?
+6.	Are the effects of severe mental illness on employment status mitigated or exacerbated by other barriers or enablers, such as socioeconomic status, education, area deprivation, physical health, involvement in services, or age?
+7.	Is the impact of severe mental illness on employment status influenced by pre-onset life factors, such as geographic area, socioeconomic status, physical health, or ethnicity?
+8.	In what ways does the impact of severe mental illness on employment status differ between conditions within the severe mental illness category?
+9.	Are severe mental illness individuals’ employment status affected by variations in health board spending in severe mental illness services?
+10.	Are common mental health disorders individuals and the rest of the population's employment status affected by variations in health board spending in mental health services?
+
+### 2020 to 2022
+
+1.	How has the impact of common mental health disorders and severe mental illness on employment status changed since 2000 in England?
+2.	How do employment status patterns for individuals with common mental health disorders and severe mental illness compared to the rest of the population in England in 2007?
+3.	Is the relationship of severe mental illness to employment status different from the relationship of common mental health disorders to employment status in England?
+4.	How does living with common mental health disorders and severe mental illness affect the entrance of young adults (16-35 years old) to the labour force, in comparison to young adults without common mental health disorders and severe mental illness?
+5.	Are the effects of common mental health disorders and severe mental illness on employment status mitigated or exacerbated by other barriers or enablers, such as socioeconomic status, ethnicity, education, physical health, involvement in services? 
+
+## Thesis Structure
+
+There are eight chapters, including this introduction (Chapter \@ref(chapter1), in the thesis. These chapters are interspersed with three short reflexive pieces (titled 'Beginning', 'Middle' and 'End'). These short pieces are autoethnographic and based on lived experience. Given the experience of the thesis author living with a severe mental illness themselves and having experiences like those represented in the data analysed, these reflexive pieces were included to help readers to understand the position this research was approached from. The pieces are edited excerpts from private written diaries kept by the author between 2016 and 2022. 
+
+Chapter \@ref(chapter2) reviews literature relating to the main themes of the thesis: severe mental illness, employment trajectories, and administrative data (although this is no longer a focus due to the shift after COVID-19). As much of the project work is exploratory in nature, a systematic review of literature was not considered appropriate. Instead, each section of the chapter supplies a contextual review of literature relevant to its topic from academic and policy sources.
+
+Chapter \@ref(chapter3) details methods employed for the project analysis. Firstly, a brief description of the procedures that were needed to access the sensitive data used in the project, both pre- and post-COVID impact. This is followed by an overview of the administrative data sources which the research originally intended to use. The next section briefly describes the decision-making process in the choice of new data when access to the original project’s planned data was disrupted. A section detailing the new data and the extensive data cleaning on the new data to enable analysis is provided. The next section discusses the statistical methods applied to answer the stated research questions. The last section supplies a timeline of the research project and briefly discusses important milestones.
+
+Chapter \@ref(chapter4) is a short methodology detailing the reasons and underpinnings of using reflexivity within a traditional quantitative project like this one. This chapter provides a comprehensive account of the ontological and epistemological issues faced during the project. This has been put used throughout this thesis, and the inclusion of three short reflexive pieces, titled 'Beginning', 'Middle' and 'End' throughout this work illustrates this use in practice. 
+
+Chapter \@ref(chapter5) provides detailed descriptive statistics of the cohort in five sections: their characteristics by age, gender, ethnicity, and other demographics; economic activity and employment status; common mental health disorders; and severe mental illness. 
+
+Chapter \@ref(chapter6) provides results of statistical models relevant to the research questions. All questions are answered via logistic regression models and reporting the Average Partial Effects (APEs), as well as goodness of fit results and follows a similar structure to Chapter \@ref(chapter5). 
+
+Chapter \@ref(chapter7) discusses the key findings of the research in context, compares the findings with previous research, and addresses the strengths and weaknesses of this project, as well as making recommendations for future research.
+
+Chapter \@ref(chapter8) provides a brief conclusion to the thesis as a whole

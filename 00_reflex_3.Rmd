@@ -1,0 +1,33 @@
+---
+output:
+    thesisdown::thesis_pdf: default
+bibliography: bib/thesis.bib
+csl: csl/harvard.csl
+space_betwee_paragraphs: true
+fig_caption: true
+always_allow_html: yes
+link-citations: true
+toc-depth: 3
+lot: true
+lof: true
+editor_options: 
+  chunk_output_type: console
+---
+
+# End {-}
+
+Every Wednesday since the start of 2018 I go to counselling. At first, I was resistant. I didn’t know what I would talk about. I realised some things had maybe been bad growing up and leading to the start of my psychosis, but not that bad. At first, I thought it would fix me or at least make the voices go away like the medication promised to do. It did provide me with the first unfiltered space where I didn’t have to mask emotions or the voices or how I felt. 
+
+It included everything and anything from childhood to doing this PhD. Sessions were often, and still are tearful. We’ve worked on imposter syndrome a lot over the years. I’ve laughed many times and said she must be dying for me to hand this thing in. In contrast with the many psychiatrists I’ve seen in ten minute slots over the years, she has not shied away from me, my life, and especially my lows. She was the first to not discharge me for non-compliance after disclosing self-harm and suicidal thoughts. Many times we’ve spoken about the people in the data used here. I’ve become emotional over the fact I have the chance to access counselling outside of the NHS and so many with SMI in the data don’t. I thought I was weird for thinking this, she didn’t. We’ve spoken about employment and SMI when I’ve voiced I don’t feel like an anomaly, when the statistics say that I am. This was also refreshing as the only time a psychiatrist asked about my employment situation and I said I was doing a PhD, he was in such disbelief he goggled my supervisor to see if they were real. His words. He then turned round in his chair and said, 
+
+> *“You know people like you die 20 years
+> younger”.*
+
+We would talk a lot about family. This often left that horrible sinking feeling in my stomach. It felt like betraying them to talk about them in that way. The subject of counselling, much like doing the PhD, has only been discussed a few times. It Is something “people like us don’t do”. Despite hearing from others, especially neighbours on my mums street, that I must be doing so well, they’re so proud of you, my family has, at times, expressed what I think is resentment at this PhD. I was the first to go to Uni in a family that places high value on *“real”* employment – this has never actually been defined, but does not include the PhD, being a lecturer or a researcher – and children. On one hand they ask for advice and on the other they say I know nothing. And maybe I don’t. Have they asked when I’ll be finishing this work? Yes. Someone even asked for the title, but on being told, exclaimed,
+
+> *“Oh no, no, no, Shell. That’s too
+> depressing, you need to think positive
+> thoughts”.*
+
+*(December 2022 – taken from a longer reflexive piece)*
+ 

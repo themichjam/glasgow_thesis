@@ -1,0 +1,48 @@
+---
+author: 'Michelle Kimberly Jamieson'
+date: 'January 2023' # Month and year of submission
+title: "Understanding Barriers To Employment For People Living With Severe Mental Illness"
+university: "University of Glasgow"
+college: "College of Social Sciences" # change to college
+school: "School of Social & Political Sciences"
+quals: "MRes, MSc, B.A (Hons)" # change to quals
+degree: "Doctor of Philosophy (PhD)"
+logo: figure/gla_logo.pdf # remove for no logo
+bibliography: bib/thesis.bib # location of your bibliography file
+#wordcount: "" if you want to include word count on front page
+csl: csl/harvard.csl # location of your referencing style file
+knit: "bookdown::render_book"
+site: "bookdown::bookdown_site"
+header-includes:
+    \usepackage[left]{lineno}
+    \usepackage{float}
+    \floatplacement{figure}{H}
+    \raggedbottom 
+output:
+  thesisdown::thesis_pdf: default 
+#  thesisdown::thesis_gitbook: default         
+#  thesisdown::thesis_word: default
+#  thesisdown::thesis_epub: default
+lot: true # list of tables
+lof: true # list of figures
+space_betwee_paragraphs: true
+indent: true # do you want to indent paragraphs
+fig_caption: true
+always_allow_html: yes
+link-citations: true
+abstract: |
+  `r if(knitr:::is_latex_output()) paste(readLines("00_abstract.Rmd"), collapse = '\n  ')`
+acknowledgements: |
+  `r if(knitr:::is_latex_output()) paste(readLines("00_acknowledgements.Rmd"), collapse = '\n  ')`
+declaration: |
+  `r if(knitr:::is_latex_output()) paste(readLines("00_declaration.Rmd"), collapse = '\n  ')`
+abbreviations: |
+  `r if(knitr:::is_latex_output()) paste(readLines("00_abbreviations.Rmd"), collapse = '\n  ')`
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r include_packages, include = FALSE}
+doc.type <- knitr::opts_knit$get('rmarkdown.pandoc.to')
+source("data/packages.R")
+```

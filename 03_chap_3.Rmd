@@ -1,0 +1,235 @@
+---
+output:
+    thesisdown::thesis_pdf: default
+bibliography: bib/thesis.bib
+csl: csl/harvard.csl
+space_betwee_paragraphs: true
+fig_caption: true
+always_allow_html: yes
+link-citations: true
+toc-depth: 3
+lot: true
+lof: true
+editor_options: 
+  chunk_output_type: console
+---
+
+# Methods 1: Quantitative {#chapter3}
+
+## Chapter Overview
+
+This chapter outlines the process of accessing the data and the analysis used to answer the research questions in this thesis.
+
+There are six sections.
+
+The first section of this thesis provides a description of the impact of COVID-19 on the original envisioned research, as well as an explanation of what the thesis became as a result.
+
+The second section of this thesis includes a detailed report of the data handling process, including the access and approvals process that was required.
+
+The third section provides a description of the data sources used in this thesis, including where they came from, the reasons for utilizing them, and any known issues related to the data.
+
+The chapter will then examine how the required data wrangling, necessary to use the data for analysis was approached. Before examining the timeline of the major stages of the research and writing process, the chapter will describe the statistical methods applied to the data in order to answer the research questions posed in this thesis.
+
+## The Impact of COVID-19
+
+The emergence of the new strain of coronavirus, COVID-19, in December of 2019 and its subsequent spread in 2020 has undoubtedly affected everyone in some way, with 6.82 million deaths worldwide (as of the 27th of January 2023). For this thesis, which was relying on novel and sensitive linked health and admin datasets, only accessible through a safe haven, this has meant the loss of access to the original planned data due to the prioritization of COVID-19 research. Progress was delayed as assurances that data would soon be available, though ultimately the data-holders pushed the permissions process for the original data out of the time scale for this thesis. This has meant that thought had to be given to new sources of data that could be accessed from home as quarantine measures have continued in 2020 and 2021 and home working in 2022; and with limited time left within the funded period to engage with this data. Therefore, an exploration of potentially available data held on the UK Data Service was undertaken. Several potential datasets that show promise for meeting the needs of this PhD project were identified and explored in May 2020. 
+
+### Criteria for New Data Selection
+
+To continue to support and answer the research questions involved in this thesis, any new potential data must meet certain criteria to be usable, and which matched the original data as closely as possible.
+
+These are:
+
+*1.	Includes adults over the age of 16/18*
+
+As this project is focusing on employment status and outcomes, this would by nature focus on working-age adults, including entrance to the workforce (usually at 16 years old, but also 18), up until retirement age (mid-70s). This would also help answer the research question(s) number 4. How does living with severe mental illness affect the entrance of young adults (16-35 years old) to the labour force, in comparison to young adults without severe mental illness?
+
+*2.	Conducted in the UK*
+
+As this is a project concerned with employment status and outcomes in the UK, there must be in-depth information relevant to the UK context. This would go towards answering the research questions; 1. How has the impact of severe mental illness on employment status changed in the last ten years? And two. How do severe mental illness individuals’ employment status patterns compare to the rest of the population? 3. Is the relationship of severe mental illness to employment status different from the relationship of non-severe mental illness to employment status? 
+
+*3.	Captures objective and/or subjective measures of mental health prevalence (could include general health measure, diagnosis [ICD-10/11], medication, healthcare visits)*
+
+As this project is concerned primarily with individuals living with what can be considered a ‘Severe Mental Health’ condition, such as psychosis and schizophrenia, among others, any data must capture more than surface-level information about mental health. Any new data should include measures based on objective criteria or external assessments – such as medication, healthcare visits, diagnosis – or subjective measures – questions about general health, amount of GP visits, amount of time taking medication etc. These measures would help answer the research questions; 3. Is the relationship of severe mental illness to employment status different from the relationship of non-severe mental illness to employment status? 
+
+*4.	Captured over several periods*
+
+This project originally aimed to explore the employment status of individuals across their lifespan, or certainly a significant period. To do this, any new data must have several waves or time points, preferably over a few decades. This would help answer research questions, 1. How has the impact of severe mental illness on employment status changed in the last ten years? 2. How do severe mental illness individuals’ employment status patterns compare to the rest of the population? 6. How does living with severe mental illness affect the entrance of young adults (16-35 years old) to the labour force, in comparison to young adults without severe mental illness? 
+
+*5.	Captures un/employment and economic (in)activity*
+
+As this project is concerned with employment status across the lifespan, measures of employment must be included and captured in any new data that is utilized.
+
+*6.	Captures different demographics*
+
+This is particularly relevant to build up a picture around psychosocial economic factors that could influence people’s lives. And answers questions; 6. Are the effects of severe mental illness on employment status mitigated or exacerbated by other barriers or enablers, such as socioeconomic status, education, area deprivation, physical health, involvement in services, or age? 7. Is the impact of severe mental illness on employment status influenced by pre-onset life factors, such as geographic area, socioeconomic status, physical health, or ethnicity? 8. In what ways does the impact of severe mental illness on employment status differ between conditions within the severe mental illness category? 
+
+### Datasets Considered 
+
+Several datasets available from the UK Data Service that could be accessed from home were considered. In summary, an exploration of potentially available data held on the UK Data Service was undertaken with the above criteria in mind and the shortlisted datasets for consideration were as follows:  
+
+*1.	Psychiatric Morbidity Surveys*
+
+The Surveys of Psychiatric Morbidity aim to provide up-to-date information about the prevalence of psychiatric problems among people in Great Britain, as well as their associated social disabilities and use of services. The series started in 1993 and so far, has covered adults in private households (1993, 2000 2007 and 2014); people in private households with psychosis (1993/4 and 2000); adults in institutions specifically catering for people with mental illness (1994); homeless people (1994); prisoners (1997); children and adolescents (1999 and 2004); and young people looked after by local authorities (2001/2).
+
+*2.	Scottish Health Study (SHeS)*
+
+This study started in 1991 and still continues as a repeated cross-section. 
+The Scottish Health Survey (SHeS) began in 1995, with subsequent surveys conducted in 1998 and 2003. From 2008-2011, commissioned by the Scottish Government, the survey has run continuously with a two-stage process - a personal interview for the full sample, followed by a nurse visit to one-sixth of the sample, whereas it was previously offered to the whole sample. The SHeS aims to gain knowledge about the health of the population of Scotland.
+
+*3.	Health Education Population Survey (HEPS)*
+
+1996 - continuing (repeated cross-section) Scotland
+The HEPS monitored health-related knowledge, attitudes, behaviours, and motivations to change among the adult population of Scotland. Questions covered a range of priority topic areas. The data were used to monitor the success of health education, information and communications activity and contributed towards the planning and development of health improvement initiatives.
+
+*4.	OECD Health Statistics/Social & Welfare*
+
+1980 - continuing country-level data multi-nation
+OECD Health Statistics offers the most comprehensive source of comparable statistics on health and health systems across OECD countries. Including health status, non-medical determinants of health, health care resources, health care utilization, care quality indicators, pharmaceutical markets, long-term care resources, health expenditure and finance, social protection, demographics, economic references.
+
+After review, the Adult Psychiatric Morbidity Survey was deemed to be most suitable for continuing this work, as it met all criteria above and was also accessible. 
+
+## Data Access and Handling
+
+It is important to keep this data secure, which considering the challenges of accessing data from home, could be a challenge to this project. This section briefly describes the safeguards taken to ensure the data was handled properly under the new working conditions.
+
+### Access Conditions
+
+The data chosen to move forward with, the Adult Psychiatric Morbidity Survey (APMS), was available on the UK Data Service (UKDS). The 2014 survey was not included due to still being under special license which could not be accessed in the time constraint of this thesis, and the 1992 wave was ommited due to no or poor measurement continuation of mental illness. The UK Data Service is a comprehensive, single point of access resource funded by the Economic and Social Research Council (ESRC) to support researchers and policymakers who depend on high-quality social and economic data.
+
+The Adult Psychiatric Morbidity Survey is classed as *“safeguarded”* by the UK Data Service. Data licensed for use in the safeguarded category are not personal or identifiable. These safeguards include knowing who is using the data and for what purpose they are using it for, which can be for non-commercial, commercial, and teaching projects. To access data at the safeguarding level, researchers need to complete a registration and authentication process via the UK Data Service. Safeguarded is the current Office for National Statistics’ (ONS) preferred term for data the UK Data Service provides under the UK Data Service’s End User License (EUL). The EUL outlines the restrictions on use for a particular data collection. Additional conditions may be attached such as: special agreements, depositor permission, limited to non-commercial or academic users, data destruction clauses, and specific forms of citation. The Adult Psychiatric Morbidity Survey was subject to the depositor being notified, data destruction after a period of use, and specific forms of citation. 
+
+### Researcher Training
+
+Although not an explicit requirement to access the safeguarded data from the UK Data Service, it is encouraged for users to undertake safe researcher training. This Safe Researcher Training (SRT) course is intended for researchers who will be, or are in the process of, applying for access to controlled data accessed through a safe haven, or other secure environments. This course covers data security and personal responsibility, including legal and procedural breaches and penalties, and the “five safes” model. It covers statistical disclosure control, or how to make outputs safe for release. This course was originally undertaken in 2018 in preparation for the original plan and data access at the safe haven in Edinburgh, and then refreshed in 2021. Although not required to work with the Adult Psychiatric Morbidity Survey, the training proved invaluable in the course of this thesis. 
+
+## Data Source
+
+From this new set of criteria and the data available under working circumstances, APMS was chosen to move forward with. Below is a description of what this data source looks like and how these fits with this project. 
+
+### Adult Psychiatric Morbidity Survey Background
+
+The main source of data that was decided on after the disruption of COVID-19 to the original project plan was the Adult Psychiatric Morbidity Survey, and the waves conducted in 2000 and 2007. The survey monitors the prevalence of mental illness and access to treatments in the general population for England’s National Statistics. The primary aims of the survey series are to estimate the prevalence of different mental disorders in England’s general population; to establish what proportion of people with a disorder are in receipt of treatment; to produce temporal trends in prevalence and use of treatment; and to compare circumstances of people with and without a mental illness.
+
+The series to date consists of four repeat cross-sectional surveys. The first two surveys covered Britain - England, Scotland, and Wales - and were conducted in 1993 and 2000 by the Office for National Statistics (ONS). The 2007 and 2014 surveys covered England only and were conducted by the National Centre for Social Research. The latter two surveys had no upper age limit – which were 64 years old in the 1993 survey and 74 years old in the 2000 survey. A survey is also planned for 2021/2022. 
+
+Each survey consisted of a first and second phase, with the second phase co-ordinated by the University of Leicester and carried out with a subgroup of phase-one participants. England’s Department of Health and Social Care has been the main funder throughout the survey series, with the most recent surveys commissioned via NHS Digital. Each survey underwent an ethical review, most recently with the West London National Research Ethics Committee. The APMS surveys are part of a wider series of studies examining the mental health of specific populations. These have included people living in institutions, the homeless population, the prison population, carers, minority ethnic groups, and children and young people in England [@RN3582].
+
+### Sample Design 
+
+Each APMS wave used a stratified random probability sampling design to produce a representative sample of the population living in private households. The first stage of sampling involved selection of addresses from the Postcode Address File, which covers around 97% of households in England [@RN1111]. People living in temporary housing, or institutional or communal establishments, or sleeping rough, were not sampled in the APMS. Although mental illness rates are elevated in these populations, they comprise an estimated <2% of the population and their exclusion was not thought to impact on overall estimates [@RN1111]. 
+
+Invitation letters with information about the survey were posted, after which trained interviewers visited each address. They established whether households were private households. One resident - aged >16 years old - was randomly selected in each of the eligible households.  Fieldwork took place from March to September 2000, and October 2006 to December 2007 (and April to November 1993 and May 2014 to September 2015 for the waves not included in this thesis). 	
+
+In 2000, 8,886 people aged 16–74 years old were interviewed in England, Scotland, and Wales. In 2007 there were 7,461 participants aged >16 years old were interviewed in England (in the waves not included, 1993, 10,108 people aged 16–64 years old were interviewed in England, Scotland, and Wales, and in 2014, 7,546 people >16 years old were interviewed in England only). Weights have been developed to take account of selection probabilities (for example, such as the under-sampling of those living in multi-person households) and non-response, to render the survey results representative of the household population aged >16 years old at the time of each survey wave.  The ONS mid-year population estimates were used for population control totals for age by gender and region. The full weighting strategy is described in the next sub section. 
+
+The process for selecting the participants that would be invited for an assessment in phase two varied between the survey waves. In 2000 (and the same for 1993), all the participants who screened positive for a psychosis condition or a personality disorder were followed up for phase two participation. In 2007 (and 2014) granular sampling fractions were applied.  For each phase one respondent, the selection probability for a phase two assessment was calculated as the maximum of four disorder specific probabilities: psychosis probability; Asperger syndrome probability; borderline personality disorder probability; and antisocial personality disorder probability. These probabilities were based on respondents’ responses to the screening questions in the phase one questionnaire. The antisocial personality disorder score was derived from a combination of scores for conduct disorder and adult antisocial personality.
+
+### Data Collection
+
+Phase one interviews were conducted by trained interviewers in people’s own homes and averaged a length of one and a half hours in duration. Phase two interviews were also carried out in participants’ own homes by trained medical professionals and took a similar amount of time. Since the 2000 wave, interviews have been conducted as a computer-assisted personal interview, whereas in 1993 data collection was by pen and paper. The majority of the questionnaire was administered face to face, with some sensitive information collected through self-completion by the participants themselves. 
+
+### Assessment of Mental Illness & Coverage of Risks
+
+A variety of types of mental illnesses were assessed or screened for. These included relatively common conditions such as depression and anxiety disorders, and more severe conditions such as psychosis disorders.
+
+The detailed phase one questionnaire covered different aspects of people’s lives known to be associated with mental health. This data can be used to describe the circumstances people with mental disorders experience and the inequalities they face. 
+
+### Differences Between Survey Waves Analyzed 
+
+The main aim of the APMS is to produce temporal trends in the prevalence of psychiatric disorder in the population, with cross-wave comparability. Although methods largely remained the same, some changes were made in later waves.  Differences between the 2000 and 2007 waves analyzed in this thesis are:
+
+*Geography:*
+
+2000 covered Britain (Scotland, England, and Wales), whereas 2007 only sampled from England.
+
+*Age:*
+
+In 2000 16- to 74-year-olds were sampled, and in 2007 there was no upper age limit to participation in the survey.
+
+*Topics:*
+
+After participant consultation, new topics after 1993 were added to each new survey eave. some new subjects are added in each wave.
+
+Quality control measures included in-built checks. For example, at 10% of addresses where interviewing took place, telephone calls were made to participants to check that interviews had been carried out appropriately.  There was also supervision of phase two research psychologists by a senior research psychologist.
+
+### Strengths and Weaknesses of the APMS
+
+The APMS has proved seminal in helping establish national statistics on mental illness prevalence in the population. A strength of the APMS is that it samples from the wider general population, rather than just people already in contact with mental health services, as well as the phase two process being carried out by trained medical professionals. These datasets are ideal for measuring the extent and nature of the mental health treatment gap. Their use of validated screening and assessments for mental illness which then produce dimensional scores enable the identification of those with sub-threshold symptomology, as well as those with an undiagnosed or an untreated disorder in the general population. Whereas other routine data sources can exclude details on people’s social and economic circumstances, this information is gathered in the APMS in ways that have been consistent over time and with comprehensive coverage.  The use of self-completion data collection for the more sensitive topics can help reinforce the participants’ sense of privacy and encourages honest reporting. Participants are also asked about consent for data linkage and to be re-contacted for any future research. This presents a unique opportunity for longitudinal data collection and analysis. 
+
+However, the APMS series also has weaknesses. People living in institutional settings like prisons or care homes, or who are homeless or living in temporary housing were not in the scope of the study. This introduces a potential source of bias. Not everyone selected for interview could be contacted, others were contacted but declined to participate, with falling response rate being a widespread phenomenon [@RN4760]. Survey weights addressed these biases to some extent. However, people with severe mental or physical health problems or those with impaired cognitive functioning may well have been less willing, able, or available to undertake a long interview, as well as reluctant to disclose conditions due to stigma and cultural or societal views of certain mental illnesses [@RN4737]. The assessment tools used, however, are widely validated. Scope for sub-group analysis can be limited by the low number of positive cases in the sample for low-prevalence conditions.  Confidence intervals for such estimates can therefore be wide. Given that methods have remained consistent across the surveys however, this limitation can be reduced to some extent by pooling samples from more than one wave for analysis. 
+
+### Wave Weighting Strategies
+
+In the 2007 wave, the phase one survey data was weighted to take account of non-response, and to ensure that the results were representative of the household population aged 16 years and over [@RN3582]. Weighting occurred in three steps: first, the sample weights were applied to take account of the different probabilities of selecting respondents in different sized households. Second, to help reduce household non-response bias, a household level weight was calculated from a logistic regression model using interviewer observation and area-level variables, collected from Census 2001 data, available for responding and non-responding households. 
+
+The phase two interview data in 2007 have a different set of survey weights from those generated at phase one. These phase two weights were designed to generate condition-specific phase two datasets that were representative of the population ‘eligible’ for phase two on that condition. For psychosis, the phase two weighted dataset represents those screened in as ‘possibly psychotic’ at phase one; and the phase two weighted dataset for borderline personality disorder represents those with a score of 3 or more on the borderline personality disorder phase one screening questions. The calculation of the phase two weights was relatively straightforward. They account for two factors: not all those eligible for phase two were selected with equal probability (those with higher screening scores at phase two were more likely to be selected, and those with potential co-morbidities were selected with, on average, higher probabilities than those with single disorders); and some of those selected for phase two declined to take part. 
+
+For the 2000 wave, weighting occurred in three steps [@RN3582]. First the data were weighted to take account of different sampling rates for postal sectors in Scotland (and the one postal sector involved twice by mistake). Secondly, sample weights were applied to take account of the different probabilities of selecting respondents in different sized households. Finally, weights were applied using post-stratification based on age, gender, and region to weight the data up to represent the structure of the national population, to take account of differential non-response among regions and age groups. Only one adult was sampled per household, so a second factor (the number of eligible adults in the household) was used to compensate for the different probability of selection for individuals in different sized households. Population estimates for age in ten-year bands, gender and region (taken from the weighting used on the Labour Force Survey) were used to post-stratify the data to population controls. 
+
+For phase two, prevalence rates for personality disorder were based on the second stage interviews. Only a sub-sample of respondents to the initial interviews were selected for the second stage and some of those selected did not complete a second interview. Therefore, further weights needed to be calculated to compensate for differential sampling probabilities and non-response at the second stage. This weighting was conducted in two steps. 1. A weight was constructed which took the first stage sampling weight and multiplied this by the probability of selection for the second stage. 2. There was differential non-response among the second stage sample groups. Response was associated with the sample group and level of neurotic symptoms, factors which were also associated with the likelihood of receiving a diagnosis of mental disorder at the second stage. To compensate for this differential nonresponse a new weight was formed. 
+
+## Data Preparation or Wrangling 
+
+Once the APMS data had been downloaded, these were read into RStudio (4.1.3, 2022-03-10). The data formats available did not include the most common type used when working in R – .csv format. Instead, the data sets were downloaded in the SPSS .sav format and the `haven` v.2.5.0 [@hadley2022] package was used to read this data into the R environment. The aim of cleaning and wrangling the data was to create one row of data for each individual for each wave. This format is based on the principles of tidy data [@hadley2019], which share a common design philosophy, grammar, and data structures. The cleaning process in order to get the data ready for analysis relied heavily on this approach, alongside several key packages – the `tidyverse` v.1.3.1 [@hadley2019] packages which wrap `ggplot2`, `dplyr`, `tidyr`, `purr`, `tibble`, `stringr`, and `forcats`. Many more packages outside of this key package, but still aligning with the tidyverse principles were also used, and a full list can be viewed in Appendix B. 
+
+Although the APMS is survey data, it still had the issue of being *“messy”* data. Messy data can suffer from different types of problems that hinder further analysis, including having special characters, duplicate rows, words being misspelled or several versions of a word that mean the same thing, for example, “not applicable”, “N/A”, and “n/a”: zeros instead of null values, and just missing observations. Characteristics of ideal, clean data ready for meaningful analysis includes being free of duplication, free of misspellings and special characters, data being the appropriate type for analysis, for example, numbers as numerical instead of character variables; and following a tidy structure [@hadley2019]. 
+
+The 2007 survey wave contained 7,403 observations of 1,757 variables. Not all of these variables were needed for this project’s analysis, so the data was subset to variables of interest. This process involved the screening of the survey documentation, including the data dictionary and variable catalogues to find variables of interest that captured economic in/activity, severe mental illness and common mental health disorders and a variety of contextual variables around this. As the 2007 wave was the most recent accessed wave, the variables that were chosen from this wave were then cross-referenced with the 2000 survey wave to find variables in common, in addition to a manual search of the 2000 documentation. This was achieved through the `intersect` and `setdiff` functions in R. All variables of interest can be seen in appendix X, and access to code scripts can be seen in Appendix BX. After subsetting the data, the 2007 wave was left with 7,403 observations of 267 variables (with 1,490 variables dropped).
+
+Further exploration of the data revealed several issues that were immediately obvious. First, all variable names were adjusted to a uniform format with the help of the `janitor` (v.2.0.1) [@firke2021] package. The commands `clean_names` and `remove_empty` were used to make all variable names snake case and drop rows and columns that were empty for the subset. The commands `order (colnames ()) ` and `rename_all(tolower)` were used to transform the variable names to lower case and order alphabetically. The second step was to rectify unwanted factor levels within the variables themselves. These consisted of several levels that needed to be transformed to the universal `NA`. The levels `"No answer/refused`, `NA`, `N/A`, `Don't know`, `Missing data`, ‘Proxy’, `Item not applicable`, and `Schedule not applicable` from all 267 variables were placed within an object named `na_strings` 
+
+This converted the previous factor levels into the universally recognized `NA` within R and solves the issue of “messiness” and levels that are not needed moving on. The third issue was sorting the factor level names and positions. The existing level names within the variables made use of a lot of abbreviations that were not accessible for readers who were not familiar with the data. For example, the variable `diag` which is a measure of common mental health disorders in the 2007 survey wave, included eleven levels, ten conditions and one level named ‘no disorder’. The command `recode_factor` was used on several variables that captured employment, mental illness, and sociodemographic information to further data exploration and allow accessible visualisations to be made. 
+
+Recoding of variables also happened to facilitate modelling. For example, the employment variable `dvilo4a` which captured ILO employment status in four categories recorded ‘employed’, ‘unemployed’, ‘economically inactive’, ‘in employment not unpaid family worker’, and ‘unpaid family worker’. For modelling purposes where a binary was required `recode_factor` was used to collapse down into ‘economically active’ and ‘economically active’. 
+
+To account for the survey weighting measures in the further analysis, the use of some specialist packages was required to create a complex survey object.  This is an important step in ensuring that the data is accurately represented and that any biases in the sample are accounted for. The process of creating a complex survey object involves incorporating the weighting measures, as well as other survey design elements such as strata and clustering, into the analysis. This allows for the calculation of accurate standard errors and confidence intervals, which are essential for making valid inferences from the data. Additionally, the use of these specialist packages also allows for the implementation of advanced techniques such as post-stratification and raking, which can further improve the precision of the estimates and looked like:
+
+$$y = \frac{\sum_{i=1}^{N} w_i y_i}{\sum_{i=1}^{N} w_i}$$
+
+Where $y_i$ is the value of the variable of interest for the i-th observation, $w_i$ is the weight for the i-th observation, and N is the number of observations in the survey data. The weighted mean is calculated by summing the product of the weights and values and dividing by the sum of the weights. More can be seen on complex weighted survey object code in Appendix B.
+
+Overall, the use of these packages and the creation of a complex survey object is crucial for ensuring the validity and reliability of the analyses conducted in this thesis.
+
+The package `survey` (v.4.1.1) [@lumley2020] and its tidyverse wrapper `srvyr` (v.1.1.1) [@lumley2020] were used. This same workflow was also applied to the 2000 survey wave in preparation for further analysis via modelling which is described in section 3.6. 
+
+## Statistical Modelling
+
+To address and answer the project’s research questions, a tidy approach to modelling was implemented, using the `tidymodels` (v.0.2.0) [@kuhn2020] package. The modelling used follows a `tidymodels` structure in several steps. The dependent variable in these models was being economically active or not, measured by the derived variable of `econ_act` which collapsed from the original four levels to two levels, `economically active` or `economically inactive`. Logistic regression models were fitted and compared to each other in both of the survey waves.
+
+For the logistic regression models, independent variables were added progressively, these were a measure of gender, age, ethnicity, social class, education, physical health. The models were one set with demographic factors as independent and the economic activity variable as dependent. The next set of models were nested, with the dependent variable including only those who were economically active, and the other variables as independent. The third set of models had presence of common mental health disorders as the dependent, with the other demographic variables as independent, and the fourth set of models had the type of common mental health disorders as dependent. The fifth set of models had the presence of severe mental illness as the dependent, and the sixth set of models had severe mental illness type as the dependent, with independent variables being the same demographic factors. Model fit which was measured by McFadden’s pseudo R2 [@mcfadden1974measurement] calculated by the formula:
+
+$$R^{2}_{McFadden} = 1 - \frac {ln(LM_{1})}{ln(LM_{0})} $$
+
+$ln(LM_{1})$ = log likelihood of fitted model \newline
+$ln(LM_{0})$ = log likelihood of null model
+
+McFadden’s R2 values are not analogous with R2 values calculated from linear models.
+Instead, values of 0.2 - 0.4 represent an excellent model fit [@mcfadden1974measurement].
+
+Logistic regression weighted survey model results were reported via odds-ratios for individual independent variables, an example being in Appendix B. Average partial effects (APE’s) were also reported. The recommended course of action in this case is to provide a measure of the extent of the effect of each variable. Estimates are reported as average partial effects (APEs), which is also a recommended course of action for interpretation in the `tidymodels` workflow [@kuhn2020], and looked like:
+
+$$\text{APE} = \frac{1}{n}\sum_{i=1}^{n} \frac{\partial \hat{y_i}}{\partial x_i}$$
+
+Where n is the number of observations, $\hat{y_i}$ is the predicted value of Y for observation i and $x_i$ is the value of X for observation i.
+
+This effect estimate describes the average marginal effect (AME) at a specific value of a given independent variable and Williams in 2012, p. 325 provides an intuitive example of how APEs are calculated and interpreted concerning race and diabetes [@RN4761]:
+
+1.	Go to the first case. Treat that person as though he or she were white, regardless of what the person’s race actually is. Leave all other independent variable values as is. Compute the probability that this person (if he or she were white) would have diabetes.
+2.	Now do the same thing but this time treating the person as though he or she were black.
+3.	The difference in the two probabilities just computed is the ME for that case.
+4.	Repeat the process for every case in the sample.
+5.	Compute the average of all the MEs you have computed. This gives you the AME for being black relative to white.
+
+This compares hypothetical populations with the same observed values for other explanatory variables in the model [@RN4761]. Mood [@RN3593] states that reporting APEs is advantageous as the effects can be compared across groups, models, and samples. In this analysis APEs were calculated with standard errors and 95% confidence intervals using the `tidymodels` packages [@kuhn2020]. 
+For all variables included in the final models, model performance metrics and APE reporting, this can be seen in Chapter \@ref(chapter6). 
+
+## Project Timeline
+
+This project began in October 2017. Part of the first year of this project was to scope out potential datasets around the original project title of “health barriers and enables to the return of employment” and it was during this time a focus on psychosis conditions was taken forward in relation to this. Going into the second year and after literature reviews and become familiar with data sources it was decided to widen this scope out to “Severe Mental Illness”, and this is also when the originally planned administrative datasets were taken forward to link and use. 
+
+Going into the third year of the project, data access via the SLS was arranged at Ladywell House in Edinburgh. However, after the UK press conference on the 16th of March 2020 around the rise in COVID-19 globally, it was announced that all non-essential travel and contact should be stopped. Ladywell House, a data safe haven that could only be accessed physically, announced their immediate closure on the 17th of March for two weeks. The announcement of the first national lockdown in UK was broadcast on the 23rd of March 2020. Data access for the original thesis project data was originally arranged for the 30th of March 2020. This did not go ahead, and several months after when measures were still in place, the project had to be reorientated due to the SLS not allowing home access. The original PhD submission date was December 2020. With a funder extension due to COVID-19 and a thesis pending year, this took submission to the 31st of January 2023. 
+
+## Summary
+
+This chapter has described in detail the methods used to identify, obtain, and analyse the survey data used to answer the research questions set in Chapter \@ref(chapter1), as well as an in-depth discussion of the data source, and why a new data source had to be found. Data access, wrangling and statistical methods were also covered. 

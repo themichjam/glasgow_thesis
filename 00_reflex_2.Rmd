@@ -1,0 +1,29 @@
+---
+output:
+    thesisdown::thesis_pdf: default
+bibliography: bib/thesis.bib
+csl: csl/harvard.csl
+space_betwee_paragraphs: true
+fig_caption: true
+always_allow_html: yes
+link-citations: true
+toc-depth: 3
+lot: true
+lof: true
+editor_options: 
+  chunk_output_type: console
+---
+
+# Middle {-}
+
+I’ve been re-reading a lot of statistics recently for this work on the life span of people with psychosis. It scares me. Especially when you factor in the whole deprivation West of Scotland thing. Sometimes all I can think about is *“That will be me. I’ll be dead by 40”* and then the writing stops. I often think about the people in the data I’m using, usually about if they’re dead or not, or unhappy, or not able to afford to eat or heat. Sometimes I feel too involved with them and I don’t even know their names. Sometimes I feel other people who’ve used this data have no right to because they can’t really understand what the people in it live with. Other times I think I shouldn’t be using it because I can’t really understand what they live with, even if we do share the same label. It feels like I’m in between.
+
+Last month a childhood friend was murdered in Pollok. They’re not the first and I don’t think they’ll be the last. I’d been writing about lifespans when another friend told me the news. I cried a lot. The kind of crying that makes you feel suffocated, it’s so heavy. Your eyelids feel like broken glass. Mum also phones me soon after to tell me the news, we cry together. I don’t think that ever happened before. I can’t get words out and hang up.  I sit next to the dog who’s confused by this sudden change but sticks around. All I can think of is how unfair it all is. They’d had a hard life, but I thought, so did we all, all my friends and me. It’s not something I really thought of when I was younger, the hardness of it, because we all had similar troubles. Family issues, addiction, job struggles as we got older.
+
+It wasn’t until I went to do my postgraduate stuff that I realized the vast chasm that existed between me and my experiences and the experiences of other students in my cohort. I still remember the looks on people’s faces when, on being pushed to say what job my dad had when I was growing up, was that it wouldn’t appear as a census choice. But to my friends and family, the experience of being at Uni removes me from this experience. Too posh now apparently, for Priesthill, but can never quite fit in at Glasgow. My brother points out I have two different voices. My mum screams that I *“better not sound neddy”* any time I mention speaking to my supervisors. My friends laugh and say I’ve managed to escape. Have I?
+
+Sitting on the couch I can remember the group of us, childhood friends, all piling into the Pollok swimming pool on the weekend. It’s still there now, still the same. We thought the wave machine was the best thing since sliced bread and still went on the orange chute, even if it did have some stray nails. We’d just hang on to the grates at the deep end when the tannoy woman from the front desk would finally come marching in and scream at us to leave. We’d go to the Tesco café in the Pollok Center for chips and gravy. It used to be up a flight of steps. I can remember us all waving with our plastic sports bags as we went our separate ways on the Peat Road. The days used to be long and I remember them being warm. Where did mine and theirs diverge? We grew up in the same area, similar families and circumstances, same schools, same academic performance – we were not the best – for me to end up at Glasgow Uni and for them to end up dead? How am I any more deserving? There's only a few of us left now from that group, me included. The days aren't as long now. 
+
+And it makes me think, how did I end up here? It must be some sort of mistake. 
+
+*(September 2021 – taken from a longer reflexive piece)*

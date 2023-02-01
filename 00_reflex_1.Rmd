@@ -1,0 +1,48 @@
+---
+output:
+    thesisdown::thesis_pdf: default
+bibliography: bib/thesis.bib
+csl: csl/harvard.csl
+space_betwee_paragraphs: true
+fig_caption: true
+always_allow_html: yes
+link-citations: true
+toc-depth: 3
+lot: true
+lof: true
+editor_options: 
+  chunk_output_type: console
+---
+
+# Beginning {-}
+
+How far back in time and do I need to go when thinking about me and what I do to this work? At what time did I become *“ill”*, or should it be from my proximity to others that were ill first. I am after all technically an outsider looking in on the data provided. 
+
+Should I start from eight months ago, when I landed in the Southern with cuts and talking about government conspiracies. I got told I had psychosis, low mood, and that self-harm was for teenagers. They say someone will phone. I walked home myself that night. I hide it. 
+
+Or should I rewind to as far back as I can remember when I used to sit with my dad, and he spoke about government conspiracies, and I first noticed that horrible feeling in my stomach. We got told he had “unusual beliefs” that would come and go. The brain injury makes him a bit eccentric anyway, my gran says. I hide it. 
+
+Or when the weekend visits to my dad’s and his mum stopped because of the benignly named, by my mums side, the *“Venezuela thing”*. Dad appeared a few months later, gran, not for nearly ten years. I found the prison name next to her picture on the front page of the newspaper one morning in the shop before school. San Antonio. The school had an assembly about it. Every time I slept, I had a nightmare about her. I hide it. 
+
+Or when I would walk from Hillpark back home to Priesthill after school just to delay having to walk in mums door and sneak past the drunk boyfriend that was a permanent fixture on the couch. I got diagnosed with anxiety around that time. I started throwing up whenever I was scared. It was a lot. It became a family joke. I started staying out later. I hide it.
+
+I’m called round to my dad’s by one of his sisters. He’s been lifted in Pollok.
+
+> *“What for this time?”*
+
+Fighting again apparently. I can hear him from the street. As usual. He doesn’t know how to be quiet. There's tea lights lit and sitting on the carpet. It’s in sections and pulled up, lost to a DIY project that never ends and leaves wherever he lives looking half finished. The boxes have been stacked up for at least a year. He sits on the couch and talks to me. This has always stuck with me, talking at me and not with me. I always swore I would never do that to anyone. 
+
+The voices still make any interaction a bit blurry. They appeared eight months ago and haven’t left. There were three, and now, on the good days there are only two. Those two aren’t scary, it’s like listening to people talk in a coffee shop or in a crowd. What I do catch is mostly just describing what I do. I often wonder if other people who hear voices experience the same, or how common this is? I know it’s different for everyone, but how different. I know it makes concentrating difficult. The third voice only appears when things are bad, and at night. 
+
+Dads telling me about the fight and it’s not that I don’t care, I’m just very tired now. They used to call me a young carer for him, but now I’m not even a carer because of being a student. I tell him to behave himself as I won’t be visiting him in the jail if he goes. He laughs. He always laughs at this. He asks for a cup of tea and a roll up. He doesn’t know about what happened eight months ago, or any of the mental health stuff really. He’s stuck in his own world and I’m an extension. No one else will look after him, not even the services, so all of this falls to me. I don’t think I could tell him. He’d be upset and he has short-term memory issues anyway, so what’s the point. For the short time I couldn’t come in person every week, my wee brother did. He started losing his hair because of stress, the GP said. 
+
+I come back with his tea and his roll up. I’ve never been any good at them. The only other bit of unpacked furniture is his hi-fi system. He’s put space oddity by David Bowie on and is dancing at the back of the room. He says thanks and calls me sweetie. That song always reminds me of him. We used to dance to that song together all the time when I was wee. 
+
+*“I didn’t interrupt you from anything important today?”* he asks me. I say I was up at the Uni doing PhD stuff. He says, *“Oh well, not actual work then”.* It is, I say. We don’t say much else, and I leave. All I wanted to do at that moment was scream,
+
+> *“I’m hurt, I don’t know what to do. This happened to me. What do I do!”.*
+
+But I don’t. What would be the point anyway? He hasn’t asked. No one has even asked me in the first place.
+
+*(February 2018 – taken from a longer reflexive piece)*
+ 

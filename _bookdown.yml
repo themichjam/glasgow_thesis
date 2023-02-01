@@ -1,0 +1,22 @@
+book_filename: "glasgow_thesis"
+chapter_name: "Chapter "
+delete_merged_file: true
+
+rmd_files: ["index.Rmd",
+            "00_reflex_1.Rmd",
+            "01_chap_1.Rmd",
+            "02_chap_2.Rmd",
+            "03_chap_3.Rmd",
+            "04_chap_4.Rmd",
+            "00_reflex_2.Rmd",
+            "05_chap_5.Rmd",
+            "06_chap_6.Rmd",
+            "07_chap_7.Rmd",
+            "00_reflex_3.Rmd",
+            "08_chap_8.Rmd",
+            "97_appendix.Rmd",
+            "99_references.Rmd"]
+
+download: [["glasgow_thesis.pdf", "PDF"],
+          ["glasgow_thesis.epub", "EPUB"],
+          ["glasgow_thesis.docx", "Word"]]

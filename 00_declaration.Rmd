@@ -1,0 +1,23 @@
+<style>
+body {
+text-align: justify}
+</style>
+
+I declare, except where explicit reference is made to the contribution of others, that this thesis is the result of my own work and has not been submitted for any other degree at the University of Glasgow or any other institution. <br>
+
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+
+Printed Name: *Michelle Kimberly Jamieson*     
+  
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+
+
+Signed:     
