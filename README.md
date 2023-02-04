@@ -8,4 +8,6 @@
 
 ### Viva: TBD
 
+Read the PDF here: https://github.com/themichjam/glasgow_thesis/tree/main/_book
+
 ![](figure/frontcover.png)
