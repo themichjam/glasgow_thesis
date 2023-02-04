@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.27)  3 FEB 2023 18:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.1.27)  4 FEB 2023 12:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -750,7 +750,7 @@ Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
 )
 \cslhangindent=\skip119
 \csllabelwidth=\skip120
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 362.
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 360.
 (c:/Users/rmkja/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 ) (c:/Users/rmkja/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -760,36 +760,36 @@ File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 ) (./glasgow_thesis.aux)
 \openout1 = `glasgow_thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 362.
-LaTeX Font Info:    ... okay on input line 362.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 362.
-LaTeX Font Info:    ... okay on input line 362.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 362.
-LaTeX Font Info:    ... okay on input line 362.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 362.
-LaTeX Font Info:    ... okay on input line 362.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 362.
-LaTeX Font Info:    ... okay on input line 362.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 362.
-LaTeX Font Info:    ... okay on input line 362.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 362.
-LaTeX Font Info:    ... okay on input line 362.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 362.
-LaTeX Font Info:    ... okay on input line 362.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 362.
-LaTeX Font Info:    ... okay on input line 362.
-LaTeX Info: Redefining \microtypecontext on input line 362.
-Package microtype Info: Applying patch `item' on input line 362.
-Package microtype Info: Applying patch `toc' on input line 362.
-Package microtype Info: Applying patch `eqnum' on input line 362.
-Package microtype Info: Applying patch `footnote' on input line 362.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 360.
+LaTeX Font Info:    ... okay on input line 360.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 360.
+LaTeX Font Info:    ... okay on input line 360.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 360.
+LaTeX Font Info:    ... okay on input line 360.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 360.
+LaTeX Font Info:    ... okay on input line 360.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 360.
+LaTeX Font Info:    ... okay on input line 360.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 360.
+LaTeX Font Info:    ... okay on input line 360.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 360.
+LaTeX Font Info:    ... okay on input line 360.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 360.
+LaTeX Font Info:    ... okay on input line 360.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 360.
+LaTeX Font Info:    ... okay on input line 360.
+LaTeX Info: Redefining \microtypecontext on input line 360.
+Package microtype Info: Applying patch `item' on input line 360.
+Package microtype Info: Applying patch `toc' on input line 360.
+Package microtype Info: Applying patch `eqnum' on input line 360.
+Package microtype Info: Applying patch `footnote' on input line 360.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 362.
+LaTeX Info: Redefining \showhyphens on input line 360.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -848,7 +848,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 362.
+Package hyperref Info: Link coloring ON on input line 360.
 (./glasgow_thesis.out) (./glasgow_thesis.out)
 \@outlinefile=\write4
 \openout4 = `glasgow_thesis.out'.
@@ -860,7 +860,7 @@ Package caption Info: End \AtBeginDocument code.
 <figure/gla_logo.pdf, id=689, 1487.5575pt x 544.0325pt>
 File: figure/gla_logo.pdf Graphic file (type pdf)
 <use figure/gla_logo.pdf>
-Package pdftex.def Info: figure/gla_logo.pdf  used on input line 364.
+Package pdftex.def Info: figure/gla_logo.pdf  used on input line 362.
 (pdftex.def)             Requested size: 208.25662pt x 76.16403pt.
 [1
 
@@ -925,7 +925,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 \openout7 = `glasgow_thesis.lof'.
 
 [16]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 442.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 438.
 (c:/Users/rmkja/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [17
@@ -934,14 +934,14 @@ File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 pdfTeX warning (ext4): destination with the same identifier (name{page.xviii}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.513   \end{abbreviations}
+l.509   \end{abbreviations}
                             [18
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.539 \end{quote}
+l.535 \end{quote}
                   [1
 
 
@@ -949,7 +949,7 @@ l.539 \end{quote}
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.551 \end{quote}
+l.547 \end{quote}
                   [2] [3] [4
 
 ]
@@ -959,7 +959,7 @@ Chapter 2.
 [17
 
 ] [18] [19] [20] [21] [22]
-Overfull \hbox (3.35727pt too wide) in paragraph at lines 789--790
+Overfull \hbox (3.35727pt too wide) in paragraph at lines 785--786
 \T1/ptm/m/it/12 (-20) ``ineffective''\T1/ptm/m/n/12 (-20) , \T1/ptm/m/it/12 (-20) ``incomprehensible''\T1/ptm/m/n/12 (-20) , \T1/ptm/m/it/12 (-20) ``dangerous''\T1/ptm/m/n/12 (-20) , \T1/ptm/m/it/12 (-20) ``unworthy''\T1/ptm/m/n/12 (-20) , \T1/ptm/m/it/12 (-20) ``immoral''\T1/ptm/m/n/12 (-20) , \T1/ptm/m/it/12 (-20) ``undesirable to be with
  []
 
@@ -968,7 +968,7 @@ Overfull \hbox (3.35727pt too wide) in paragraph at lines 789--790
 ]
 Chapter 3.
 [53] [54] [55] [56] [57] [58] [59] [60] [61] [62] [63] [64] [65]
-LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line 1196.
+LaTeX Font Info:    Trying to load font information for TS1+lmtt on input line 1192.
 (c:/Users/rmkja/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmtt.fd
 File: ts1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) [66] [67] [68] [69] [70]
@@ -983,19 +983,19 @@ Chapter 5.
 
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1426.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1422.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1426.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1422.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1426.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1422.
 [90] [91]
 <figure/econ_act_gen.png, id=2171, 361.35pt x 216.81pt>
 File: figure/econ_act_gen.png Graphic file (type png)
 <use figure/econ_act_gen.png>
-Package pdftex.def Info: figure/econ_act_gen.png  used on input line 1993.
+Package pdftex.def Info: figure/econ_act_gen.png  used on input line 1989.
 (pdftex.def)             Requested size: 501.88358pt x 301.16321pt.
 
-Overfull \hbox (44.07872pt too wide) in paragraph at lines 1993--1993
+Overfull \hbox (44.07872pt too wide) in paragraph at lines 1989--1989
 [][] 
  []
 
@@ -1003,10 +1003,10 @@ Overfull \hbox (44.07872pt too wide) in paragraph at lines 1993--1993
 <figure/at_gen.png, id=2188, 361.35pt x 216.81pt>
 File: figure/at_gen.png Graphic file (type png)
 <use figure/at_gen.png>
-Package pdftex.def Info: figure/at_gen.png  used on input line 2010.
+Package pdftex.def Info: figure/at_gen.png  used on input line 2006.
 (pdftex.def)             Requested size: 501.88358pt x 301.16321pt.
 
-Overfull \hbox (44.07872pt too wide) in paragraph at lines 2010--2010
+Overfull \hbox (44.07872pt too wide) in paragraph at lines 2006--2006
 [][] 
  []
 
@@ -1014,10 +1014,10 @@ Overfull \hbox (44.07872pt too wide) in paragraph at lines 2010--2010
 <figure/et_gen.png, id=2196, 361.35pt x 216.81pt>
 File: figure/et_gen.png Graphic file (type png)
 <use figure/et_gen.png>
-Package pdftex.def Info: figure/et_gen.png  used on input line 2021.
+Package pdftex.def Info: figure/et_gen.png  used on input line 2017.
 (pdftex.def)             Requested size: 501.88358pt x 301.16321pt.
 
-Overfull \hbox (44.07872pt too wide) in paragraph at lines 2021--2021
+Overfull \hbox (44.07872pt too wide) in paragraph at lines 2017--2017
 [][] 
  []
 
@@ -1025,10 +1025,10 @@ Overfull \hbox (44.07872pt too wide) in paragraph at lines 2021--2021
 <figure/inact.png, id=2203, 361.35pt x 216.81pt>
 File: figure/inact.png Graphic file (type png)
 <use figure/inact.png>
-Package pdftex.def Info: figure/inact.png  used on input line 2034.
+Package pdftex.def Info: figure/inact.png  used on input line 2030.
 (pdftex.def)             Requested size: 501.88358pt x 301.16321pt.
 
-Overfull \hbox (44.07872pt too wide) in paragraph at lines 2034--2034
+Overfull \hbox (44.07872pt too wide) in paragraph at lines 2030--2030
 [][] 
  []
 
@@ -1036,10 +1036,10 @@ Overfull \hbox (44.07872pt too wide) in paragraph at lines 2034--2034
 <figure/emp_age.png, id=2214, 361.35pt x 216.81pt>
 File: figure/emp_age.png Graphic file (type png)
 <use figure/emp_age.png>
-Package pdftex.def Info: figure/emp_age.png  used on input line 2051.
+Package pdftex.def Info: figure/emp_age.png  used on input line 2047.
 (pdftex.def)             Requested size: 501.88358pt x 301.16321pt.
 
-Overfull \hbox (44.07872pt too wide) in paragraph at lines 2051--2051
+Overfull \hbox (44.07872pt too wide) in paragraph at lines 2047--2047
 [][] 
  []
 
@@ -1047,10 +1047,10 @@ Overfull \hbox (44.07872pt too wide) in paragraph at lines 2051--2051
 <figure/emp_ed.png, id=2221, 361.35pt x 216.81pt>
 File: figure/emp_ed.png Graphic file (type png)
 <use figure/emp_ed.png>
-Package pdftex.def Info: figure/emp_ed.png  used on input line 2066.
+Package pdftex.def Info: figure/emp_ed.png  used on input line 2062.
 (pdftex.def)             Requested size: 501.88358pt x 301.16321pt.
 
-Overfull \hbox (44.07872pt too wide) in paragraph at lines 2066--2066
+Overfull \hbox (44.07872pt too wide) in paragraph at lines 2062--2062
 [][] 
  []
 
@@ -1058,10 +1058,10 @@ Overfull \hbox (44.07872pt too wide) in paragraph at lines 2066--2066
 <figure/econ_sc.png, id=2228, 361.35pt x 216.81pt>
 File: figure/econ_sc.png Graphic file (type png)
 <use figure/econ_sc.png>
-Package pdftex.def Info: figure/econ_sc.png  used on input line 2081.
+Package pdftex.def Info: figure/econ_sc.png  used on input line 2077.
 (pdftex.def)             Requested size: 501.88358pt x 301.16321pt.
 
-Overfull \hbox (44.07872pt too wide) in paragraph at lines 2081--2081
+Overfull \hbox (44.07872pt too wide) in paragraph at lines 2077--2077
 [][] 
  []
 
@@ -1069,10 +1069,10 @@ Overfull \hbox (44.07872pt too wide) in paragraph at lines 2081--2081
 <figure/econ_eth.png, id=2240, 361.35pt x 216.81pt>
 File: figure/econ_eth.png Graphic file (type png)
 <use figure/econ_eth.png>
-Package pdftex.def Info: figure/econ_eth.png  used on input line 2098.
+Package pdftex.def Info: figure/econ_eth.png  used on input line 2094.
 (pdftex.def)             Requested size: 501.88358pt x 301.16321pt.
 
-Overfull \hbox (44.07872pt too wide) in paragraph at lines 2098--2098
+Overfull \hbox (44.07872pt too wide) in paragraph at lines 2094--2094
 [][] 
  []
 
@@ -1080,10 +1080,10 @@ Overfull \hbox (44.07872pt too wide) in paragraph at lines 2098--2098
 <figure/econ_phc.png, id=2247, 361.35pt x 216.81pt>
 File: figure/econ_phc.png Graphic file (type png)
 <use figure/econ_phc.png>
-Package pdftex.def Info: figure/econ_phc.png  used on input line 2115.
+Package pdftex.def Info: figure/econ_phc.png  used on input line 2111.
 (pdftex.def)             Requested size: 501.88358pt x 301.16321pt.
 
-Overfull \hbox (44.07872pt too wide) in paragraph at lines 2115--2115
+Overfull \hbox (44.07872pt too wide) in paragraph at lines 2111--2111
 [][] 
  []
 
@@ -1091,10 +1091,10 @@ Overfull \hbox (44.07872pt too wide) in paragraph at lines 2115--2115
 <figure/econ_trt.png, id=2258, 361.35pt x 216.81pt>
 File: figure/econ_trt.png Graphic file (type png)
 <use figure/econ_trt.png>
-Package pdftex.def Info: figure/econ_trt.png  used on input line 2132.
+Package pdftex.def Info: figure/econ_trt.png  used on input line 2128.
 (pdftex.def)             Requested size: 501.88358pt x 301.16321pt.
 
-Overfull \hbox (44.07872pt too wide) in paragraph at lines 2132--2132
+Overfull \hbox (44.07872pt too wide) in paragraph at lines 2128--2128
 [][] 
  []
 
@@ -1102,32 +1102,32 @@ Overfull \hbox (44.07872pt too wide) in paragraph at lines 2132--2132
 <figure/econ_su.png, id=2270, 361.35pt x 216.81pt>
 File: figure/econ_su.png Graphic file (type png)
 <use figure/econ_su.png>
-Package pdftex.def Info: figure/econ_su.png  used on input line 2149.
+Package pdftex.def Info: figure/econ_su.png  used on input line 2145.
 (pdftex.def)             Requested size: 501.88358pt x 301.16321pt.
 
-Overfull \hbox (44.07872pt too wide) in paragraph at lines 2149--2149
+Overfull \hbox (44.07872pt too wide) in paragraph at lines 2145--2145
 [][] 
  []
 
 [107 <./figure/econ_su.png>]
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 2229.
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 2225.
 
 LaTeX Font Warning: Font shape `U/lasy/m/n' in size <8.40009> not available
-(Font)              size <8> substituted on input line 2229.
+(Font)              size <8> substituted on input line 2225.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2229.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2225.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.36008> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2229.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2225.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8.40009> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2229.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2225.
 <figure/cmd_age.png, id=2278, 361.35pt x 216.81pt>
 File: figure/cmd_age.png Graphic file (type png)
 <use figure/cmd_age.png>
-Package pdftex.def Info: figure/cmd_age.png  used on input line 2809.
+Package pdftex.def Info: figure/cmd_age.png  used on input line 2805.
 (pdftex.def)             Requested size: 501.88358pt x 301.16321pt.
 
-Overfull \hbox (44.07872pt too wide) in paragraph at lines 2809--2809
+Overfull \hbox (44.07872pt too wide) in paragraph at lines 2805--2805
 [][] 
  []
 
@@ -1135,10 +1135,10 @@ Overfull \hbox (44.07872pt too wide) in paragraph at lines 2809--2809
 <figure/at_cmd.png, id=2298, 361.35pt x 216.81pt>
 File: figure/at_cmd.png Graphic file (type png)
 <use figure/at_cmd.png>
-Package pdftex.def Info: figure/at_cmd.png  used on input line 2826.
+Package pdftex.def Info: figure/at_cmd.png  used on input line 2822.
 (pdftex.def)             Requested size: 501.88358pt x 301.16321pt.
 
-Overfull \hbox (44.07872pt too wide) in paragraph at lines 2826--2826
+Overfull \hbox (44.07872pt too wide) in paragraph at lines 2822--2822
 [][] 
  []
 
@@ -1146,10 +1146,10 @@ Overfull \hbox (44.07872pt too wide) in paragraph at lines 2826--2826
 <figure/et_cmd.png, id=2309, 361.35pt x 216.81pt>
 File: figure/et_cmd.png Graphic file (type png)
 <use figure/et_cmd.png>
-Package pdftex.def Info: figure/et_cmd.png  used on input line 2843.
+Package pdftex.def Info: figure/et_cmd.png  used on input line 2839.
 (pdftex.def)             Requested size: 501.88358pt x 301.16321pt.
 
-Overfull \hbox (44.07872pt too wide) in paragraph at lines 2843--2843
+Overfull \hbox (44.07872pt too wide) in paragraph at lines 2839--2839
 [][] 
  []
 
@@ -1157,10 +1157,10 @@ Overfull \hbox (44.07872pt too wide) in paragraph at lines 2843--2843
 <figure/cmdt.png, id=2322, 361.35pt x 216.81pt>
 File: figure/cmdt.png Graphic file (type png)
 <use figure/cmdt.png>
-Package pdftex.def Info: figure/cmdt.png  used on input line 2858.
+Package pdftex.def Info: figure/cmdt.png  used on input line 2854.
 (pdftex.def)             Requested size: 501.88358pt x 301.16321pt.
 
-Overfull \hbox (44.07872pt too wide) in paragraph at lines 2858--2858
+Overfull \hbox (44.07872pt too wide) in paragraph at lines 2854--2854
 [][] 
  []
 
@@ -1168,10 +1168,10 @@ Overfull \hbox (44.07872pt too wide) in paragraph at lines 2858--2858
 <figure/cmdir.png, id=2333, 361.35pt x 216.81pt>
 File: figure/cmdir.png Graphic file (type png)
 <use figure/cmdir.png>
-Package pdftex.def Info: figure/cmdir.png  used on input line 2876.
+Package pdftex.def Info: figure/cmdir.png  used on input line 2872.
 (pdftex.def)             Requested size: 501.88358pt x 301.16321pt.
 
-Overfull \hbox (44.07872pt too wide) in paragraph at lines 2876--2876
+Overfull \hbox (44.07872pt too wide) in paragraph at lines 2872--2872
 [][] 
  []
 
@@ -1179,10 +1179,10 @@ Overfull \hbox (44.07872pt too wide) in paragraph at lines 2876--2876
 <figure/cmded.png, id=2345, 361.35pt x 216.81pt>
 File: figure/cmded.png Graphic file (type png)
 <use figure/cmded.png>
-Package pdftex.def Info: figure/cmded.png  used on input line 2893.
+Package pdftex.def Info: figure/cmded.png  used on input line 2889.
 (pdftex.def)             Requested size: 501.88358pt x 301.16321pt.
 
-Overfull \hbox (44.07872pt too wide) in paragraph at lines 2893--2893
+Overfull \hbox (44.07872pt too wide) in paragraph at lines 2889--2889
 [][] 
  []
 
@@ -1190,10 +1190,10 @@ Overfull \hbox (44.07872pt too wide) in paragraph at lines 2893--2893
 <figure/cmdsc.png, id=2358, 361.35pt x 216.81pt>
 File: figure/cmdsc.png Graphic file (type png)
 <use figure/cmdsc.png>
-Package pdftex.def Info: figure/cmdsc.png  used on input line 2916.
+Package pdftex.def Info: figure/cmdsc.png  used on input line 2912.
 (pdftex.def)             Requested size: 501.88358pt x 301.16321pt.
 
-Overfull \hbox (44.07872pt too wide) in paragraph at lines 2916--2916
+Overfull \hbox (44.07872pt too wide) in paragraph at lines 2912--2912
 [][] 
  []
 
@@ -1201,10 +1201,10 @@ Overfull \hbox (44.07872pt too wide) in paragraph at lines 2916--2916
 <figure/cmdeth.png, id=2365, 361.35pt x 216.81pt>
 File: figure/cmdeth.png Graphic file (type png)
 <use figure/cmdeth.png>
-Package pdftex.def Info: figure/cmdeth.png  used on input line 2931.
+Package pdftex.def Info: figure/cmdeth.png  used on input line 2927.
 (pdftex.def)             Requested size: 501.88358pt x 301.16321pt.
 
-Overfull \hbox (44.07872pt too wide) in paragraph at lines 2931--2931
+Overfull \hbox (44.07872pt too wide) in paragraph at lines 2927--2927
 [][] 
  []
 
@@ -1212,10 +1212,10 @@ Overfull \hbox (44.07872pt too wide) in paragraph at lines 2931--2931
 <figure/cmdphc.png, id=2372, 361.35pt x 216.81pt>
 File: figure/cmdphc.png Graphic file (type png)
 <use figure/cmdphc.png>
-Package pdftex.def Info: figure/cmdphc.png  used on input line 2947.
+Package pdftex.def Info: figure/cmdphc.png  used on input line 2943.
 (pdftex.def)             Requested size: 501.88358pt x 301.16321pt.
 
-Overfull \hbox (44.07872pt too wide) in paragraph at lines 2947--2947
+Overfull \hbox (44.07872pt too wide) in paragraph at lines 2943--2943
 [][] 
  []
 
@@ -1223,10 +1223,10 @@ Overfull \hbox (44.07872pt too wide) in paragraph at lines 2947--2947
 <figure/cmdtrt.png, id=2383, 361.35pt x 216.81pt>
 File: figure/cmdtrt.png Graphic file (type png)
 <use figure/cmdtrt.png>
-Package pdftex.def Info: figure/cmdtrt.png  used on input line 2964.
+Package pdftex.def Info: figure/cmdtrt.png  used on input line 2960.
 (pdftex.def)             Requested size: 501.88358pt x 301.16321pt.
 
-Overfull \hbox (44.07872pt too wide) in paragraph at lines 2964--2964
+Overfull \hbox (44.07872pt too wide) in paragraph at lines 2960--2960
 [][] 
  []
 
@@ -1234,10 +1234,10 @@ Overfull \hbox (44.07872pt too wide) in paragraph at lines 2964--2964
 <figure/cmdsu.png, id=2395, 361.35pt x 216.81pt>
 File: figure/cmdsu.png Graphic file (type png)
 <use figure/cmdsu.png>
-Package pdftex.def Info: figure/cmdsu.png  used on input line 2983.
+Package pdftex.def Info: figure/cmdsu.png  used on input line 2979.
 (pdftex.def)             Requested size: 501.88358pt x 301.16321pt.
 
-Overfull \hbox (44.07872pt too wide) in paragraph at lines 2983--2983
+Overfull \hbox (44.07872pt too wide) in paragraph at lines 2979--2979
 [][] 
  []
 
@@ -1245,10 +1245,10 @@ Overfull \hbox (44.07872pt too wide) in paragraph at lines 2983--2983
 <figure/smiage.png, id=2413, 361.35pt x 216.81pt>
 File: figure/smiage.png Graphic file (type png)
 <use figure/smiage.png>
-Package pdftex.def Info: figure/smiage.png  used on input line 3648.
+Package pdftex.def Info: figure/smiage.png  used on input line 3644.
 (pdftex.def)             Requested size: 501.88358pt x 301.16321pt.
 
-Overfull \hbox (44.07872pt too wide) in paragraph at lines 3648--3648
+Overfull \hbox (44.07872pt too wide) in paragraph at lines 3644--3644
 [][] 
  []
 
@@ -1256,10 +1256,10 @@ Overfull \hbox (44.07872pt too wide) in paragraph at lines 3648--3648
 <figure/smiat.png, id=2427, 361.35pt x 216.81pt>
 File: figure/smiat.png Graphic file (type png)
 <use figure/smiat.png>
-Package pdftex.def Info: figure/smiat.png  used on input line 3669.
+Package pdftex.def Info: figure/smiat.png  used on input line 3665.
 (pdftex.def)             Requested size: 501.88358pt x 301.16321pt.
 
-Overfull \hbox (44.07872pt too wide) in paragraph at lines 3669--3669
+Overfull \hbox (44.07872pt too wide) in paragraph at lines 3665--3665
 [][] 
  []
 
@@ -1267,10 +1267,10 @@ Overfull \hbox (44.07872pt too wide) in paragraph at lines 3669--3669
 <figure/smiet.png, id=2439, 361.35pt x 216.81pt>
 File: figure/smiet.png Graphic file (type png)
 <use figure/smiet.png>
-Package pdftex.def Info: figure/smiet.png  used on input line 3686.
+Package pdftex.def Info: figure/smiet.png  used on input line 3682.
 (pdftex.def)             Requested size: 501.88358pt x 301.16321pt.
 
-Overfull \hbox (44.07872pt too wide) in paragraph at lines 3686--3686
+Overfull \hbox (44.07872pt too wide) in paragraph at lines 3682--3682
 [][] 
  []
 
@@ -1278,10 +1278,10 @@ Overfull \hbox (44.07872pt too wide) in paragraph at lines 3686--3686
 <figure/smies.png, id=2446, 361.35pt x 216.81pt>
 File: figure/smies.png Graphic file (type png)
 <use figure/smies.png>
-Package pdftex.def Info: figure/smies.png  used on input line 3705.
+Package pdftex.def Info: figure/smies.png  used on input line 3701.
 (pdftex.def)             Requested size: 501.88358pt x 301.16321pt.
 
-Overfull \hbox (44.07872pt too wide) in paragraph at lines 3705--3705
+Overfull \hbox (44.07872pt too wide) in paragraph at lines 3701--3701
 [][] 
  []
 
@@ -1289,10 +1289,10 @@ Overfull \hbox (44.07872pt too wide) in paragraph at lines 3705--3705
 <figure/smin.png, id=2457, 216.81pt x 216.81pt>
 File: figure/smin.png Graphic file (type png)
 <use figure/smin.png>
-Package pdftex.def Info: figure/smin.png  used on input line 3717.
+Package pdftex.def Info: figure/smin.png  used on input line 3713.
 (pdftex.def)             Requested size: 501.9409pt x 301.16321pt.
 
-Overfull \hbox (44.13605pt too wide) in paragraph at lines 3717--3717
+Overfull \hbox (44.13605pt too wide) in paragraph at lines 3713--3713
 [][] 
  []
 
@@ -1300,10 +1300,10 @@ Overfull \hbox (44.13605pt too wide) in paragraph at lines 3717--3717
 <figure/smir.png, id=2465, 361.35pt x 216.81pt>
 File: figure/smir.png Graphic file (type png)
 <use figure/smir.png>
-Package pdftex.def Info: figure/smir.png  used on input line 3732.
+Package pdftex.def Info: figure/smir.png  used on input line 3728.
 (pdftex.def)             Requested size: 501.88358pt x 301.16321pt.
 
-Overfull \hbox (44.07872pt too wide) in paragraph at lines 3732--3732
+Overfull \hbox (44.07872pt too wide) in paragraph at lines 3728--3728
 [][] 
  []
 
@@ -1311,10 +1311,10 @@ Overfull \hbox (44.07872pt too wide) in paragraph at lines 3732--3732
 <figure/smied.png, id=2471, 361.35pt x 216.81pt>
 File: figure/smied.png Graphic file (type png)
 <use figure/smied.png>
-Package pdftex.def Info: figure/smied.png  used on input line 3747.
+Package pdftex.def Info: figure/smied.png  used on input line 3743.
 (pdftex.def)             Requested size: 501.88358pt x 301.16321pt.
 
-Overfull \hbox (44.07872pt too wide) in paragraph at lines 3747--3747
+Overfull \hbox (44.07872pt too wide) in paragraph at lines 3743--3743
 [][] 
  []
 
@@ -1322,10 +1322,10 @@ Overfull \hbox (44.07872pt too wide) in paragraph at lines 3747--3747
 <figure/smisc.png, id=2483, 361.35pt x 216.81pt>
 File: figure/smisc.png Graphic file (type png)
 <use figure/smisc.png>
-Package pdftex.def Info: figure/smisc.png  used on input line 3765.
+Package pdftex.def Info: figure/smisc.png  used on input line 3761.
 (pdftex.def)             Requested size: 501.88358pt x 301.16321pt.
 
-Overfull \hbox (44.07872pt too wide) in paragraph at lines 3765--3765
+Overfull \hbox (44.07872pt too wide) in paragraph at lines 3761--3761
 [][] 
  []
 
@@ -1333,10 +1333,10 @@ Overfull \hbox (44.07872pt too wide) in paragraph at lines 3765--3765
 <figure/smieth.png, id=2491, 361.35pt x 216.81pt>
 File: figure/smieth.png Graphic file (type png)
 <use figure/smieth.png>
-Package pdftex.def Info: figure/smieth.png  used on input line 3782.
+Package pdftex.def Info: figure/smieth.png  used on input line 3778.
 (pdftex.def)             Requested size: 501.88358pt x 301.16321pt.
 
-Overfull \hbox (44.07872pt too wide) in paragraph at lines 3782--3782
+Overfull \hbox (44.07872pt too wide) in paragraph at lines 3778--3778
 [][] 
  []
 
@@ -1344,10 +1344,10 @@ Overfull \hbox (44.07872pt too wide) in paragraph at lines 3782--3782
 <figure/smiphc.png, id=2504, 361.35pt x 216.81pt>
 File: figure/smiphc.png Graphic file (type png)
 <use figure/smiphc.png>
-Package pdftex.def Info: figure/smiphc.png  used on input line 3799.
+Package pdftex.def Info: figure/smiphc.png  used on input line 3795.
 (pdftex.def)             Requested size: 501.88358pt x 301.16321pt.
 
-Overfull \hbox (44.07872pt too wide) in paragraph at lines 3799--3799
+Overfull \hbox (44.07872pt too wide) in paragraph at lines 3795--3795
 [][] 
  []
 
@@ -1355,10 +1355,10 @@ Overfull \hbox (44.07872pt too wide) in paragraph at lines 3799--3799
 <figure/smitrt.png, id=2511, 361.35pt x 216.81pt>
 File: figure/smitrt.png Graphic file (type png)
 <use figure/smitrt.png>
-Package pdftex.def Info: figure/smitrt.png  used on input line 3818.
+Package pdftex.def Info: figure/smitrt.png  used on input line 3814.
 (pdftex.def)             Requested size: 501.88358pt x 301.16321pt.
 
-Overfull \hbox (44.07872pt too wide) in paragraph at lines 3818--3818
+Overfull \hbox (44.07872pt too wide) in paragraph at lines 3814--3814
 [][] 
  []
 
@@ -1366,10 +1366,10 @@ Overfull \hbox (44.07872pt too wide) in paragraph at lines 3818--3818
 <figure/smisu.png, id=2523, 361.35pt x 216.81pt>
 File: figure/smisu.png Graphic file (type png)
 <use figure/smisu.png>
-Package pdftex.def Info: figure/smisu.png  used on input line 3835.
+Package pdftex.def Info: figure/smisu.png  used on input line 3831.
 (pdftex.def)             Requested size: 501.88358pt x 301.16321pt.
 
-Overfull \hbox (44.07872pt too wide) in paragraph at lines 3835--3835
+Overfull \hbox (44.07872pt too wide) in paragraph at lines 3831--3831
 [][] 
  []
 
@@ -1381,10 +1381,10 @@ Chapter 6.
 <figure/apeecon.png, id=2585, 735.74875pt x 301.125pt>
 File: figure/apeecon.png Graphic file (type png)
 <use figure/apeecon.png>
-Package pdftex.def Info: figure/apeecon.png  used on input line 4341.
+Package pdftex.def Info: figure/apeecon.png  used on input line 4337.
 (pdftex.def)             Requested size: 461.73914pt x 200.76021pt.
 
-Overfull \hbox (3.93428pt too wide) in paragraph at lines 4341--4341
+Overfull \hbox (3.93428pt too wide) in paragraph at lines 4337--4337
 [][] 
  []
 
@@ -1392,16 +1392,16 @@ Overfull \hbox (3.93428pt too wide) in paragraph at lines 4341--4341
 <figure/apeeconp.png, id=2591, 477.28313pt x 314.17375pt>
 File: figure/apeeconp.png Graphic file (type png)
 <use figure/apeeconp.png>
-Package pdftex.def Info: figure/apeeconp.png  used on input line 4359.
+Package pdftex.def Info: figure/apeeconp.png  used on input line 4355.
 (pdftex.def)             Requested size: 451.68309pt x 301.13835pt.
 [156]
 <figure/gofecon.png, id=2597, 739.76375pt x 118.94438pt>
 File: figure/gofecon.png Graphic file (type png)
 <use figure/gofecon.png>
-Package pdftex.def Info: figure/gofecon.png  used on input line 4372.
+Package pdftex.def Info: figure/gofecon.png  used on input line 4368.
 (pdftex.def)             Requested size: 461.73036pt x 100.38083pt.
 
-Overfull \hbox (3.9255pt too wide) in paragraph at lines 4372--4372
+Overfull \hbox (3.9255pt too wide) in paragraph at lines 4368--4368
 [][] 
  []
 
@@ -1409,10 +1409,10 @@ Overfull \hbox (3.9255pt too wide) in paragraph at lines 4372--4372
 <figure/apeemps.png, id=2616, 733.74126pt x 301.62688pt>
 File: figure/apeemps.png Graphic file (type png)
 <use figure/apeemps.png>
-Package pdftex.def Info: figure/apeemps.png  used on input line 4822.
+Package pdftex.def Info: figure/apeemps.png  used on input line 4818.
 (pdftex.def)             Requested size: 461.73323pt x 200.74963pt.
 
-Overfull \hbox (3.92838pt too wide) in paragraph at lines 4822--4822
+Overfull \hbox (3.92838pt too wide) in paragraph at lines 4818--4818
 [][] 
  []
 
@@ -1420,16 +1420,16 @@ Overfull \hbox (3.92838pt too wide) in paragraph at lines 4822--4822
 <figure/apeempsp.png, id=2624, 477.28313pt x 315.67938pt>
 File: figure/apeempsp.png Graphic file (type png)
 <use figure/apeempsp.png>
-Package pdftex.def Info: figure/apeempsp.png  used on input line 4834.
+Package pdftex.def Info: figure/apeempsp.png  used on input line 4830.
 (pdftex.def)             Requested size: 451.68309pt x 301.14609pt.
 [161]
 <figure/gofemps.png, id=2631, 735.74875pt x 116.435pt>
 File: figure/gofemps.png Graphic file (type png)
 <use figure/gofemps.png>
-Package pdftex.def Info: figure/gofemps.png  used on input line 4845.
+Package pdftex.def Info: figure/gofemps.png  used on input line 4841.
 (pdftex.def)             Requested size: 461.73914pt x 100.37909pt.
 
-Overfull \hbox (3.93428pt too wide) in paragraph at lines 4845--4845
+Overfull \hbox (3.93428pt too wide) in paragraph at lines 4841--4841
 [][] 
  []
 
@@ -1441,10 +1441,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <figure/apecmd.png, id=2656, 738.76pt x 363.3575pt>
 File: figure/apecmd.png Graphic file (type png)
 <use figure/apecmd.png>
-Package pdftex.def Info: figure/apecmd.png  used on input line 5369.
+Package pdftex.def Info: figure/apecmd.png  used on input line 5365.
 (pdftex.def)             Requested size: 461.72386pt x 200.75652pt.
 
-Overfull \hbox (3.919pt too wide) in paragraph at lines 5369--5369
+Overfull \hbox (3.919pt too wide) in paragraph at lines 5365--5365
 [][] 
  []
 
@@ -1452,16 +1452,16 @@ Overfull \hbox (3.919pt too wide) in paragraph at lines 5369--5369
 <figure/apecmdp.png, id=2662, 486.31688pt x 327.72438pt>
 File: figure/apecmdp.png Graphic file (type png)
 <use figure/apecmdp.png>
-Package pdftex.def Info: figure/apecmdp.png  used on input line 5375.
+Package pdftex.def Info: figure/apecmdp.png  used on input line 5371.
 (pdftex.def)             Requested size: 451.69121pt x 301.13004pt.
 [167 <./figure/apecmd.png> <./figure/apecmdp.png>]
 <figure/gofcmd.png, id=2670, 740.26563pt x 121.45375pt>
 File: figure/gofcmd.png Graphic file (type png)
 <use figure/gofcmd.png>
-Package pdftex.def Info: figure/gofcmd.png  used on input line 5386.
+Package pdftex.def Info: figure/gofcmd.png  used on input line 5382.
 (pdftex.def)             Requested size: 461.72734pt x 100.37476pt.
 
-Overfull \hbox (3.92249pt too wide) in paragraph at lines 5386--5386
+Overfull \hbox (3.92249pt too wide) in paragraph at lines 5382--5382
 [][] 
  []
 
@@ -1469,10 +1469,10 @@ Overfull \hbox (3.92249pt too wide) in paragraph at lines 5386--5386
 <figure/apecmdt.png, id=2685, 738.76pt x 361.35pt>
 File: figure/apecmdt.png Graphic file (type png)
 <use figure/apecmdt.png>
-Package pdftex.def Info: figure/apecmdt.png  used on input line 5862.
+Package pdftex.def Info: figure/apecmdt.png  used on input line 5858.
 (pdftex.def)             Requested size: 461.72386pt x 200.75012pt.
 
-Overfull \hbox (3.919pt too wide) in paragraph at lines 5862--5862
+Overfull \hbox (3.919pt too wide) in paragraph at lines 5858--5858
 [][] 
  []
 
@@ -1480,16 +1480,16 @@ Overfull \hbox (3.919pt too wide) in paragraph at lines 5862--5862
 <figure/apecmdtp.png, id=2690, 453.695pt x 319.1925pt>
 File: figure/apecmdtp.png Graphic file (type png)
 <use figure/apecmdtp.png>
-Package pdftex.def Info: figure/apecmdtp.png  used on input line 5876.
+Package pdftex.def Info: figure/apecmdtp.png  used on input line 5872.
 (pdftex.def)             Requested size: 451.69319pt x 301.12709pt.
 [171]
 <figure/gofcmdt.png, id=2696, 742.27313pt x 126.4725pt>
 File: figure/gofcmdt.png Graphic file (type png)
 <use figure/gofcmdt.png>
-Package pdftex.def Info: figure/gofcmdt.png  used on input line 5887.
+Package pdftex.def Info: figure/gofcmdt.png  used on input line 5883.
 (pdftex.def)             Requested size: 461.73363pt x 100.37726pt.
 
-Overfull \hbox (3.92877pt too wide) in paragraph at lines 5887--5887
+Overfull \hbox (3.92877pt too wide) in paragraph at lines 5883--5883
 [][] 
  []
 
@@ -1501,22 +1501,22 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <figure/apesmi.png, id=2718, 739.76375pt x 368.87813pt>
 File: figure/apesmi.png Graphic file (type png)
 <use figure/apesmi.png>
-Package pdftex.def Info: figure/apesmi.png  used on input line 6409.
+Package pdftex.def Info: figure/apesmi.png  used on input line 6405.
 (pdftex.def)             Requested size: 451.69545pt x 301.1255pt.
 [175]
 <figure/apesmip.png, id=2723, 456.70625pt x 345.29pt>
 File: figure/apesmip.png Graphic file (type png)
 <use figure/apesmip.png>
-Package pdftex.def Info: figure/apesmip.png  used on input line 6415.
+Package pdftex.def Info: figure/apesmip.png  used on input line 6411.
 (pdftex.def)             Requested size: 451.70154pt x 301.1322pt.
 [176 <./figure/apesmi.png> <./figure/apesmip.png>]
 <figure/gofsmi.png, id=2730, 741.77126pt x 124.465pt>
 File: figure/gofsmi.png Graphic file (type png)
 <use figure/gofsmi.png>
-Package pdftex.def Info: figure/gofsmi.png  used on input line 6426.
+Package pdftex.def Info: figure/gofsmi.png  used on input line 6422.
 (pdftex.def)             Requested size: 461.73834pt x 100.37738pt.
 
-Overfull \hbox (3.93349pt too wide) in paragraph at lines 6426--6426
+Overfull \hbox (3.93349pt too wide) in paragraph at lines 6422--6422
 [][] 
  []
 
@@ -1524,21 +1524,21 @@ Overfull \hbox (3.93349pt too wide) in paragraph at lines 6426--6426
 <figure/apesmit.png, id=2751, 740.7675pt x 305.64188pt>
 File: figure/apesmit.png Graphic file (type png)
 <use figure/apesmit.png>
-Package pdftex.def Info: figure/apesmit.png  used on input line 6852.
+Package pdftex.def Info: figure/apesmit.png  used on input line 6848.
 (pdftex.def)             Requested size: 451.69797pt x 301.14063pt.
 <figure/apesmitp.png, id=2752, 438.63875pt x 351.3125pt>
 File: figure/apesmitp.png Graphic file (type png)
 <use figure/apesmitp.png>
-Package pdftex.def Info: figure/apesmitp.png  used on input line 6858.
+Package pdftex.def Info: figure/apesmitp.png  used on input line 6854.
 (pdftex.def)             Requested size: 451.69586pt x 301.14722pt.
 [180 <./figure/apesmit.png>]
 <figure/gofsmit.png, id=2758, 739.26187pt x 119.94812pt>
 File: figure/gofsmit.png Graphic file (type png)
 <use figure/gofsmit.png>
-Package pdftex.def Info: figure/gofsmit.png  used on input line 6869.
+Package pdftex.def Info: figure/gofsmit.png  used on input line 6865.
 (pdftex.def)             Requested size: 461.72168pt x 100.37686pt.
 
-Overfull \hbox (3.91682pt too wide) in paragraph at lines 6869--6869
+Overfull \hbox (3.91682pt too wide) in paragraph at lines 6865--6865
 [][] 
  []
 
@@ -1561,53 +1561,53 @@ Appendix A.
 ]
 Appendix B.
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 7232.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 7228.
 [221]
-Underfull \vbox (badness 10000) detected at line 7288
+Underfull \vbox (badness 10000) detected at line 7284
  []
 
 
-Underfull \vbox (badness 10000) detected at line 7288
+Underfull \vbox (badness 10000) detected at line 7284
  []
 
 [222] [223]
-Underfull \vbox (badness 10000) detected at line 7488
+Underfull \vbox (badness 10000) detected at line 7484
  []
 
 
-Underfull \vbox (badness 10000) detected at line 7488
+Underfull \vbox (badness 10000) detected at line 7484
  []
 
 [224]
-Underfull \vbox (badness 10000) detected at line 7488
+Underfull \vbox (badness 10000) detected at line 7484
  []
 
 
-Underfull \vbox (badness 10000) detected at line 7488
+Underfull \vbox (badness 10000) detected at line 7484
  []
 
 [225]
-Underfull \vbox (badness 10000) detected at line 7488
+Underfull \vbox (badness 10000) detected at line 7484
  []
 
 
-Underfull \vbox (badness 10000) detected at line 7488
+Underfull \vbox (badness 10000) detected at line 7484
  []
 
 [226]
-Underfull \vbox (badness 10000) detected at line 7488
+Underfull \vbox (badness 10000) detected at line 7484
  []
 
 
-Underfull \vbox (badness 10000) detected at line 7488
+Underfull \vbox (badness 10000) detected at line 7484
  []
 
 [227]
-Underfull \vbox (badness 10000) detected at line 7488
+Underfull \vbox (badness 10000) detected at line 7484
  []
 
 
-Underfull \vbox (badness 10000) detected at line 7488
+Underfull \vbox (badness 10000) detected at line 7484
  []
 
 [228] [229] [230
@@ -1623,17 +1623,17 @@ Appendix D.
 ] [237
 
 ]
-Underfull \hbox (badness 5878) in paragraph at lines 7615--7617
+Underfull \hbox (badness 5878) in paragraph at lines 7611--7613
 []\T1/ptm/m/n/12 (+20) Bailey, N. (2015) `Ex-clu-sion-ary em-ploy-ment in britain's bro-ken labour mar-ket:',
  []
 
 [238] [239] [240] [241] [242] [243] [244] [245] [246] [247] [248] [249]
-Underfull \hbox (badness 10000) in paragraph at lines 8020--8022
+Underfull \hbox (badness 10000) in paragraph at lines 8016--8018
 \T1/lmtt/m/n/12 p u b l i c a t i o n s / 2 0 1 0 -[] to -[] 2 0 15 -[] g o v e r n m e nt -[] p o l i cy -[] w e l f a r e -[] r e f o r m / 2 0 1 0 -[] to -[] 2 0 15 -[]
  []
 
 [250] [251] [252] [253] [254]
-Underfull \hbox (badness 2080) in paragraph at lines 8152--8154
+Underfull \hbox (badness 2080) in paragraph at lines 8148--8150
 []\T1/ptm/m/n/12 (+20) Steltenpohl, C. (2020) `Is sci-ence ob-jec-tive', \T1/ptm/m/it/12 (+20) Blog re-trieved from: https://cnsyoung.
  []
 
@@ -1647,8 +1647,8 @@ Package rerunfilecheck Info: File `glasgow_thesis.out' has not changed.
  )
 (\end occurred inside a group at level 2)
 
-### semi simple group (level 2) entered at line 518 (\begingroup)
-### semi simple group (level 1) entered at line 361 (\begingroup)
+### semi simple group (level 2) entered at line 514 (\begingroup)
+### semi simple group (level 1) entered at line 359 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
  24059 strings out of 478025
@@ -1659,7 +1659,7 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  75i,17n,76p,3388b,2745s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {c:/Users/rmkja/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{c:/Users/rmkja/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/Users/rmkja/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/Users/rmkja/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/Users/rmkja/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/Users/rmkja/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/Users/rmkja/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtk10.pfb><c:/Users/rmkja/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtt12.pfb><c:/Users/rmkja/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtti10.pfb><c:/Users/rmkja/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><c:/Users/rmkja/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><c:/Users/rmkja/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/Users/rmkja/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/Users/rmkja/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/Users/rmkja/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on glasgow_thesis.pdf (277 pages, 2970212 bytes).
+Output written on glasgow_thesis.pdf (277 pages, 2970172 bytes).
 PDF statistics:
  3568 PDF objects out of 3580 (max. 8388607)
  3143 compressed objects within 32 object streams
